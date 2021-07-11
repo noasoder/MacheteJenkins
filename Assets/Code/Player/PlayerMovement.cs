@@ -11,6 +11,8 @@ public class PlayerMovement : MonoBehaviour
 
     private Vector2 m_movement;
 
+    [SerializeField] private bool m_alternativeMovement = false;
+
     private void Awake()
     {
         m_rb = GetComponent<Rigidbody2D>();
@@ -22,9 +24,16 @@ public class PlayerMovement : MonoBehaviour
 
     void Update()
     {
-        m_movement.x = Input.GetAxisRaw("Horizontal");
-        m_movement.y = Input.GetAxisRaw("Vertical");
+        if(m_alternativeMovement)
+        {
+            m_movement.x = Input.GetAxisRaw("Horizontal");
+            m_movement.y = Input.GetAxisRaw("Vertical");
 
-        m_rb.MovePosition(m_rb.position + m_movement.normalized * m_moveSpeed * Time.deltaTime);
+            m_rb.MovePosition(m_rb.position + m_movement.normalized * m_moveSpeed * Time.deltaTime);
+        }
+        else
+        {
+
+        }
     }
 }
