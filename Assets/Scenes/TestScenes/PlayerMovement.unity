@@ -3896,6 +3896,16 @@ Tilemap:
       m_TileObjectToInstantiateIndex: 65535
       dummyAlignment: 0
       m_AllTileFlags: 1073741825
+  - first: {x: -10, y: -8, z: 0}
+    second:
+      serializedVersion: 2
+      m_TileIndex: 69
+      m_TileSpriteIndex: 69
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 0
+      m_TileObjectToInstantiateIndex: 65535
+      dummyAlignment: 0
+      m_AllTileFlags: 1073741825
   - first: {x: 9, y: -8, z: 0}
     second:
       serializedVersion: 2
@@ -6806,7 +6816,7 @@ Tilemap:
     m_Data: {fileID: 11400000, guid: a223fcc3cb97e7d4481270a5d00c9f68, type: 2}
   - m_RefCount: 5
     m_Data: {fileID: 11400000, guid: 9af79baeec502304fac47c02b028f8a1, type: 2}
-  - m_RefCount: 1
+  - m_RefCount: 2
     m_Data: {fileID: 11400000, guid: c9e4eda910657384b819a145697f0c3e, type: 2}
   - m_RefCount: 15
     m_Data: {fileID: 11400000, guid: c3ce3d79e6873264cba0a1139db9e1bd, type: 2}
@@ -7007,7 +7017,7 @@ Tilemap:
     m_Data: {fileID: 21300150, guid: d21555ce72e390f49ba41fd54c373b1b, type: 3}
   - m_RefCount: 5
     m_Data: {fileID: 21300292, guid: d21555ce72e390f49ba41fd54c373b1b, type: 3}
-  - m_RefCount: 1
+  - m_RefCount: 2
     m_Data: {fileID: 21300258, guid: d21555ce72e390f49ba41fd54c373b1b, type: 3}
   - m_RefCount: 15
     m_Data: {fileID: 21300270, guid: d21555ce72e390f49ba41fd54c373b1b, type: 3}
@@ -7070,7 +7080,7 @@ Tilemap:
   - m_RefCount: 1
     m_Data: {fileID: 21300524, guid: d21555ce72e390f49ba41fd54c373b1b, type: 3}
   m_TileMatrixArray:
-  - m_RefCount: 587
+  - m_RefCount: 588
     m_Data:
       e00: 1
       e01: 0
@@ -7089,7 +7099,7 @@ Tilemap:
       e32: 0
       e33: 1
   m_TileColorArray:
-  - m_RefCount: 587
+  - m_RefCount: 588
     m_Data: {r: 1, g: 1, b: 1, a: 1}
   m_TileObjectToInstantiateArray: []
   m_AnimationFrameRate: 1
@@ -17620,7 +17630,7 @@ Transform:
   m_GameObject: {fileID: 1763779268}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -6.62, y: -5.85, z: 0}
-  m_LocalScale: {x: 1.9286, y: 1.9286, z: 1.9286}
+  m_LocalScale: {x: 2.2950342, y: 2.2950342, z: 2.2950342}
   m_Children:
   - {fileID: 1852849085}
   m_Father: {fileID: 0}
