@@ -57,7 +57,7 @@ public class Clue : InteractiveObject
     void OpenClue()
     {
         m_clueUI.SetActive(true);
-        Desk.Instance.AddClue(GetClueID());
+        GlobalManager.Instance.AddFoundClue(GetClueID());
     }
 
     public void CloseClue()

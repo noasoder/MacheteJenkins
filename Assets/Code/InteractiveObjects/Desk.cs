@@ -6,8 +6,7 @@ public class Desk : MonoBehaviour
 {
     public static Desk Instance { get; private set; }
 
-    public List<Clue> m_cluesToActivate;
-    private List<Clues> m_addedClues;
+    private List<Clue> m_cluesToActivate;
 
     public enum Clues
     {
@@ -27,29 +26,21 @@ public class Desk : MonoBehaviour
             Instance = this;
         }
 
-        Clue[] clues = GetComponentsInChildren<Clue>(true);
+        m_cluesToActivate = new List<Clue>();
 
+        Clue[] clues = GetComponentsInChildren<Clue>(true);
         foreach (Clue item in clues)
         {
             m_cluesToActivate.Add(item);
         }
+
+        GlobalManager.Instance.AddedClueEvent.AddListener(UpdateClues);
+        GlobalManager.Instance.RemovedClueEvent.AddListener(UpdateClues);
     }
 
     void Start()
     {
-        m_addedClues = new List<Clues>();
-
-        foreach (Clue clue in m_cluesToActivate)
-        {
-            if(m_addedClues.Contains(clue.GetClueID()))
-            {
-                clue.gameObject.SetActive(true);
-            }
-            else
-            {
-                clue.gameObject.SetActive(false);
-            }
-        }
+        UpdateClues();
     }
 
     void Update()
@@ -57,34 +48,44 @@ public class Desk : MonoBehaviour
         
     }
 
-    public void AddClue(Clues clue)
+    public void UpdateClues()
     {
-        if(!m_addedClues.Contains(clue))
-            m_addedClues.Add(clue);
-
-        //activate clue visual
-        for (int i = 0; i < m_cluesToActivate.Count; i++)
+        if(GlobalManager.Instance)
         {
-            if(m_cluesToActivate[i].GetClueID() == clue)
+            List<Clues> foundClues = GlobalManager.Instance.GetFoundClues();
+
+            //activate clue visual
+            foreach (Clue clue in m_cluesToActivate)
             {
-                m_cluesToActivate[i].gameObject.SetActive(true);
+                if (foundClues.Contains(clue.GetClueID()))
+                {
+                    clue.gameObject.SetActive(true);
+                }
+                else
+                {
+                    clue.gameObject.SetActive(false);
+                }
             }
+        }
+        else
+        {
+            Debug.LogWarning("No GlobalManager in the scene!!! Add one from prefabs");
         }
     }
 
-    public void RemoveClue(Clues clue)
-    {
-        if (m_addedClues.Contains(clue))
-            m_addedClues.Remove(clue);
+    //public void RemoveClue(Clues clue)
+    //{
+    //    if (m_addedClues.Contains(clue))
+    //        m_addedClues.Remove(clue);
 
 
-        //deactivate clue visual
-        for (int i = 0; i < m_cluesToActivate.Count; i++)
-        {
-            if (m_cluesToActivate[i].GetClueID() == clue)
-            {
-                m_cluesToActivate[i].gameObject.SetActive(false);
-            }
-        }
-    }
+    //    //deactivate clue visual
+    //    for (int i = 0; i < m_cluesToActivate.Count; i++)
+    //    {
+    //        if (m_cluesToActivate[i].GetClueID() == clue)
+    //        {
+    //            m_cluesToActivate[i].gameObject.SetActive(false);
+    //        }
+    //    }
+    //}
 }
