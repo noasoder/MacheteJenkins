@@ -23,21 +23,24 @@ public class Clue : InteractiveObject
 
     void Update()
     {
-        DefaultUpdate();
-
-        switch (m_state)
+        if(!GlobalManager.Instance.m_isPaused)
         {
-            case State.Closed:
-                OnStateClosed();
-                break;
-            case State.Open:
-                OnStateOpen();
-                break;
-            case State.Used:
-                break;
-            default:
-                Debug.Log("No state on clue!!!");
-                break;
+            DefaultUpdate();
+
+            switch (m_state)
+            {
+                case State.Closed:
+                    OnStateClosed();
+                    break;
+                case State.Open:
+                    OnStateOpen();
+                    break;
+                case State.Used:
+                    break;
+                default:
+                    Debug.Log("No state on clue!!!");
+                    break;
+            }
         }
     }
 

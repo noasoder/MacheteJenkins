@@ -5,12 +5,13 @@ using UnityEngine.Events;
 
 public class GlobalManager : MonoBehaviour
 {
-    public UnityEvent AddedClueEvent = new UnityEvent();
-    public UnityEvent RemovedClueEvent = new UnityEvent();
+    [HideInInspector] public UnityEvent AddedClueEvent = new UnityEvent();
+    [HideInInspector] public UnityEvent RemovedClueEvent = new UnityEvent();
 
     public static GlobalManager Instance { get; private set; }
 
     private List<Desk.Clues> m_foundClues;
+    public bool m_isPaused;
 
     private void Awake()
     {

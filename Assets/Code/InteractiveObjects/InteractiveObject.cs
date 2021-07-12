@@ -63,7 +63,7 @@ public class InteractiveObject : MonoBehaviour
     }
     private void OnMouseEnter()
     {
-        if(m_mode == Mode.MouseHover)
+        if(m_mode == Mode.MouseHover && !GlobalManager.Instance.m_isPaused)
         {
             HighlightObject(true);
             transform.localScale += Vector3.one;
