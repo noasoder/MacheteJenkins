@@ -2,16 +2,18 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Events;
+using UnityEngine.SceneManagement;
 
 public class GlobalManager : MonoBehaviour
 {
     [HideInInspector] public UnityEvent AddedClueEvent = new UnityEvent();
     [HideInInspector] public UnityEvent RemovedClueEvent = new UnityEvent();
+    [HideInInspector] public UnityEvent IsPausedEvent = new UnityEvent();
 
     public static GlobalManager Instance { get; private set; }
 
     private List<Desk.Clues> m_foundClues;
-    public bool m_isPaused;
+    private bool m_isPaused = false;
 
     private void Awake()
     {
@@ -27,7 +29,14 @@ public class GlobalManager : MonoBehaviour
 
         m_foundClues = new List<Desk.Clues>();
     }
-
+    private void OnEnable()
+    {
+        SceneManager.sceneLoaded += OnSceneLoaded;
+    }
+    void OnSceneLoaded(Scene scene, LoadSceneMode mode)
+    {
+        SetPaused(false);
+    }
     public void AddFoundClue(Desk.Clues clue)
     {
         if (!m_foundClues.Contains(clue))
@@ -48,4 +57,14 @@ public class GlobalManager : MonoBehaviour
     {
         return m_foundClues;
     }
+    public void SetPaused(bool isPaused)
+    {
+        m_isPaused = isPaused;
+        IsPausedEvent.Invoke();
+    }
+    public bool IsPaused()
+    {
+        return m_isPaused;
+    }
+
 }

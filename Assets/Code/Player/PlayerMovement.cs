@@ -24,7 +24,7 @@ public class PlayerMovement : MonoBehaviour
 
     void FixedUpdate()
     {
-        if(!GlobalManager.Instance.m_isPaused)
+        if(!GlobalManager.Instance.IsPaused())
         {
             if(m_alternativeMovement)
             {

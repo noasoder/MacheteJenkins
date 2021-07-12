@@ -23,7 +23,7 @@ public class Clue : InteractiveObject
 
     void Update()
     {
-        if(!GlobalManager.Instance.m_isPaused)
+        if(!GlobalManager.Instance.IsPaused())
         {
             DefaultUpdate();
 

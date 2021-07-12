@@ -20,7 +20,7 @@ public class FollowTarget : MonoBehaviour
 
     void LateUpdate()
     {
-        if(m_target)
+        if(m_target && !GlobalManager.Instance.IsPaused())
         {
             transform.position = Vector3.Lerp(transform.position, m_target.transform.position + m_offset, m_lerpSpeed * Time.deltaTime);
         }
