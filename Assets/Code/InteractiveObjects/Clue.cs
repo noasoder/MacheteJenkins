@@ -7,6 +7,7 @@ public class Clue : InteractiveObject
     [SerializeField] private GameObject m_clueUI;
 
     private State m_state = State.Closed;
+    [SerializeField] private Desk.Clues m_clueID;
 
     enum State
     {
@@ -56,10 +57,16 @@ public class Clue : InteractiveObject
     void OpenClue()
     {
         m_clueUI.SetActive(true);
+        Desk.Instance.AddClue(GetClueID());
     }
 
     public void CloseClue()
     {
         m_clueUI.SetActive(false);
+    }
+
+    public Desk.Clues GetClueID()
+    {
+        return m_clueID;
     }
 }

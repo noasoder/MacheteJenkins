@@ -10,8 +10,18 @@ public class InteractiveObject : MonoBehaviour
     [SerializeField] private Sprite m_defaultSprite;
     [SerializeField] private Sprite m_highlightedSprite;
 
-    [SerializeField] private float m_highlightDistance = 2f;
     private bool m_highlighted = false;
+    [SerializeField] private float m_highlightDistance = 2f;
+
+    [SerializeField] private Mode m_mode = Mode.Highlight;
+
+
+
+    public enum Mode
+    {
+        Highlight = 0,
+        MouseHover
+    }
 
     public void DefaultStart()
     {
@@ -21,15 +31,50 @@ public class InteractiveObject : MonoBehaviour
 
     public void DefaultUpdate()
     {
+        switch (m_mode)
+        {
+            case Mode.Highlight:
+                OnModeHighlight();
+                break;
+            case Mode.MouseHover:
+                OnModeMouseHover();
+                break;
+            default:
+                break;
+        }
+    }
+
+    void OnModeHighlight()
+    {
         Vector3 vecToPlayer = m_player.transform.position - transform.position;
 
-        if(vecToPlayer.sqrMagnitude <= m_highlightDistance && !GetIsHighlighted())
+        if (vecToPlayer.sqrMagnitude <= m_highlightDistance && !GetIsHighlighted())
         {
             HighlightObject(true);
         }
-        else if(vecToPlayer.sqrMagnitude > m_highlightDistance && GetIsHighlighted())
+        else if (vecToPlayer.sqrMagnitude > m_highlightDistance && GetIsHighlighted())
         {
             HighlightObject(false);
+        }
+    }
+    void OnModeMouseHover()
+    {
+
+    }
+    private void OnMouseEnter()
+    {
+        if(m_mode == Mode.MouseHover)
+        {
+            HighlightObject(true);
+            transform.localScale += Vector3.one;
+        }
+    }
+    private void OnMouseExit()
+    {
+        if (m_mode == Mode.MouseHover)
+        {
+            HighlightObject(false);
+            transform.localScale -= Vector3.one;
         }
     }
 
@@ -48,5 +93,9 @@ public class InteractiveObject : MonoBehaviour
     public bool GetIsHighlighted()
     {
         return m_highlighted;
+    }
+    public Mode GetMode()
+    {
+        return m_mode;
     }
 }

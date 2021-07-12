@@ -47,6 +47,9 @@ TagManager:
   - name: Player
     uniqueID: 2538974991
     locked: 0
-  - name: Overlap Player
+  - name: Walls
     uniqueID: 2291056253
+    locked: 0
+  - name: Clues
+    uniqueID: 1447874787
     locked: 0
