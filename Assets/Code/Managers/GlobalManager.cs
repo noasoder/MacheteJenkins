@@ -14,6 +14,7 @@ public class GlobalManager : MonoBehaviour
 
     private List<Desk.Clues> m_foundClues;
     private bool m_isPaused = false;
+    private bool m_canMove = true;
 
     private void Awake()
     {
@@ -36,6 +37,7 @@ public class GlobalManager : MonoBehaviour
     void OnSceneLoaded(Scene scene, LoadSceneMode mode)
     {
         SetPaused(false);
+
     }
     public void AddFoundClue(Desk.Clues clue)
     {
@@ -53,6 +55,10 @@ public class GlobalManager : MonoBehaviour
             RemovedClueEvent.Invoke();
         }
     }
+    public bool HasFoundClue(Desk.Clues clue)
+    {
+        return m_foundClues.Contains(clue) ? true : false;
+    }
     public List<Desk.Clues> GetFoundClues()
     {
         return m_foundClues;
@@ -65,6 +71,14 @@ public class GlobalManager : MonoBehaviour
     public bool IsPaused()
     {
         return m_isPaused;
+    }
+    public bool CanMove()
+    {
+        return m_canMove;
+    }
+    public void SetCanMove(bool canMove)
+    {
+        m_canMove = canMove;
     }
 
 }

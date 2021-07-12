@@ -16,7 +16,9 @@ public class Desk : MonoBehaviour
         Note,
         CigaretteButts,
         ChalkOutline,
-        HotDog
+        HotDog,
+        Fight1Clue,
+        Fight2Clue
     }
 
     private void Awake()
