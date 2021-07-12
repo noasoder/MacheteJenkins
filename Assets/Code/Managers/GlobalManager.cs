@@ -4,6 +4,7 @@ using UnityEngine;
 using UnityEngine.Events;
 using UnityEngine.SceneManagement;
 
+[RequireComponent(typeof(HelperFunctions))]
 public class GlobalManager : MonoBehaviour
 {
     [HideInInspector] public UnityEvent AddedClueEvent = new UnityEvent();
@@ -11,6 +12,8 @@ public class GlobalManager : MonoBehaviour
     [HideInInspector] public UnityEvent IsPausedEvent = new UnityEvent();
 
     public static GlobalManager Instance { get; private set; }
+
+    [HideInInspector] public HelperFunctions m_helperFunctions;
 
     private List<Desk.Clues> m_foundClues;
     private bool m_isPaused = false;
@@ -29,6 +32,7 @@ public class GlobalManager : MonoBehaviour
         }
 
         m_foundClues = new List<Desk.Clues>();
+        m_helperFunctions = GetComponent<HelperFunctions>();
     }
     private void OnEnable()
     {
@@ -37,7 +41,7 @@ public class GlobalManager : MonoBehaviour
     void OnSceneLoaded(Scene scene, LoadSceneMode mode)
     {
         SetPaused(false);
-
+        SetCanMove(true);
     }
     public void AddFoundClue(Desk.Clues clue)
     {

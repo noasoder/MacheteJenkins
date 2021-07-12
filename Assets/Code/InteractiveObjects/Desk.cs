@@ -8,6 +8,8 @@ public class Desk : MonoBehaviour
 
     private List<Clue> m_cluesToActivate;
 
+    [SerializeField] GameObject m_playerSpawn;
+
     public enum Clues
     {
         FingerPrint = 0,
@@ -73,6 +75,11 @@ public class Desk : MonoBehaviour
         {
             Debug.LogWarning("No GlobalManager in the scene!!! Add one from prefabs");
         }
+    }
+
+    public Vector3 GetDeskSpawnPoint()
+    {
+        return m_playerSpawn.transform.position;
     }
 
     //public void RemoveClue(Clues clue)

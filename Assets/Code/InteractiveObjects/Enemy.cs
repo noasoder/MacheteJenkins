@@ -6,6 +6,7 @@ public class Enemy : InteractiveObject
 {
     [SerializeField] private GameObject m_startFightPrompt;
     [SerializeField] private GameObject m_defeatedPrompt;
+    [SerializeField] private GameObject m_playerDefeatedPrompt;
 
     private State m_state = State.Waiting;
     [SerializeField] private Desk.Clues m_clueID = Desk.Clues.Fight1Clue;
@@ -70,7 +71,11 @@ public class Enemy : InteractiveObject
     {
         if(Input.GetKeyDown(KeyCode.K))
         {
-            EndFight();
+            WinFight();
+        }
+        if (Input.GetKeyDown(KeyCode.L))
+        {
+            LooseFight();
         }
     }
     void OnStateDefeated()
@@ -104,10 +109,35 @@ public class Enemy : InteractiveObject
         m_startFightPrompt.SetActive(false);
         m_state = State.Battle;
     }
-    public void EndFight()
+    public void WinFight()
     {
         m_defeatedPrompt.SetActive(true);
         m_state = State.Defeated;
         GlobalManager.Instance.AddFoundClue(m_clueID);
+    }
+    public void RespawnPlayer()
+    {
+        m_state = State.Waiting;
+
+        m_defeatedPrompt.SetActive(false);
+        m_startFightPrompt.SetActive(false);
+        m_playerDefeatedPrompt.SetActive(false);
+
+        GlobalManager.Instance.SetCanMove(true);
+        Player.Instance.RespawnPlayer(Player.SpawnPositions.AtDesk);
+    }
+    public void GoToMainMenu()
+    {
+        m_state = State.Waiting;
+
+        m_defeatedPrompt.SetActive(false);
+        m_startFightPrompt.SetActive(false);
+        m_playerDefeatedPrompt.SetActive(false);
+
+        GlobalManager.Instance.m_helperFunctions.LoadSceneWithLoadingScreen("MainMenu");
+    }
+    public void LooseFight()
+    {
+        m_playerDefeatedPrompt.SetActive(true);
     }
 }

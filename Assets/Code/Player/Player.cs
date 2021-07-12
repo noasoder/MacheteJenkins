@@ -6,12 +6,18 @@ public class Player : MonoBehaviour
 {
     public static Player Instance { get; private set; }
 
+    public enum SpawnPositions
+    {
+        AtDesk = 0,
+        AtCustomPosition
+    }
+
     private void Awake()
     {
     }
     void Start()
     {
-        if (Instance)
+        if (Instance == null)
         {
             Instance = this;
         }
@@ -19,6 +25,14 @@ public class Player : MonoBehaviour
 
     void Update()
     {
-        
+
+    }
+
+    public void RespawnPlayer(SpawnPositions spawnAt, Vector3 pos = default(Vector3))
+    {
+        if(spawnAt == SpawnPositions.AtDesk)
+        {
+            transform.position = Desk.Instance.GetDeskSpawnPoint();
+        }
     }
 }
