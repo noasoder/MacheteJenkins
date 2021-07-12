@@ -22,7 +22,7 @@ public class PlayerMovement : MonoBehaviour
 
     }
 
-    void Update()
+    void FixedUpdate()
     {
         if(m_alternativeMovement)
         {
@@ -33,7 +33,7 @@ public class PlayerMovement : MonoBehaviour
             m_movement.x = Input.GetAxisRaw("Horizontal");
             m_movement.y = Input.GetAxisRaw("Vertical");
 
-            m_rb.MovePosition(m_rb.position + m_movement.normalized * m_moveSpeed * Time.deltaTime);
+            m_rb.MovePosition(m_rb.position + m_movement.normalized * m_moveSpeed);
         }
     }
 }

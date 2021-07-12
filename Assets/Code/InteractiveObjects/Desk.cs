@@ -26,6 +26,13 @@ public class Desk : MonoBehaviour
         {
             Instance = this;
         }
+
+        Clue[] clues = GetComponentsInChildren<Clue>(true);
+
+        foreach (Clue item in clues)
+        {
+            m_cluesToActivate.Add(item);
+        }
     }
 
     void Start()
