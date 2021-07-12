@@ -5,7 +5,6 @@ using UnityEngine.SceneManagement;
 
 public class HelperFunctions : MonoBehaviour
 {
-
     public void QuitApplication()
     {
         Application.Quit();
@@ -17,5 +16,9 @@ public class HelperFunctions : MonoBehaviour
     public void LoadScene(string sceneName)
     {
         SceneLoader.LoadScene(sceneName, false);
+    }
+    public void SetPaused(bool isPaused)
+    {
+        GlobalManager.Instance.SetPaused(isPaused);
     }
 }
