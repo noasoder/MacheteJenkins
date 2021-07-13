@@ -6,12 +6,14 @@ using UnityEngine;
 public class PlayerMovement : MonoBehaviour
 {
     private Rigidbody2D m_rb;
+    [SerializeField] private SpriteRenderer m_spriteRenderer;
 
     [SerializeField] private float m_moveSpeed = 4f;
 
     private Vector2 m_movement;
 
     [SerializeField] private bool m_alternativeMovement = false;
+    [SerializeField] private bool m_reverseFlip = false;
 
     private void Awake()
     {
@@ -34,6 +36,17 @@ public class PlayerMovement : MonoBehaviour
             {
                 m_movement.x = Input.GetAxisRaw("Horizontal");
                 m_movement.y = Input.GetAxisRaw("Vertical");
+
+                if(m_movement.x < 0)
+                {
+                    if(m_spriteRenderer.flipX == m_reverseFlip)
+                        m_spriteRenderer.flipX = !m_reverseFlip;
+                }
+                else if(m_movement.x > 0)
+                {
+                    if (m_spriteRenderer.flipX == !m_reverseFlip)
+                        m_spriteRenderer.flipX = m_reverseFlip;
+                }
 
                 m_rb.MovePosition(m_rb.position + m_movement.normalized * m_moveSpeed);
             }
