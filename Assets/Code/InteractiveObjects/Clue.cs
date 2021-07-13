@@ -50,6 +50,10 @@ public class Clue : InteractiveObject
         {
             OpenClue();
         }
+        if(Input.GetMouseButton(0) && GetIsHighlighted() && GetMode() == Mode.MouseHover)
+        {
+            OpenClue();
+        }
     }
 
     void OnStateOpen()

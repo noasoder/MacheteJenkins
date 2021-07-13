@@ -14,10 +14,11 @@ public class Desk : MonoBehaviour
     {
         FingerPrint = 0,
         Wallet, 
-        Bullet, 
         Note,
         CigaretteButts,
         ChalkOutline,
+        Footprints,
+        RippedClothing,
         HotDog,
         Fight1Clue,
         Fight2Clue
@@ -81,20 +82,4 @@ public class Desk : MonoBehaviour
     {
         return m_playerSpawn.transform.position;
     }
-
-    //public void RemoveClue(Clues clue)
-    //{
-    //    if (m_addedClues.Contains(clue))
-    //        m_addedClues.Remove(clue);
-
-
-    //    //deactivate clue visual
-    //    for (int i = 0; i < m_cluesToActivate.Count; i++)
-    //    {
-    //        if (m_cluesToActivate[i].GetClueID() == clue)
-    //        {
-    //            m_cluesToActivate[i].gameObject.SetActive(false);
-    //        }
-    //    }
-    //}
 }
