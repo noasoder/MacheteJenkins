@@ -8,6 +8,7 @@ public class Clue : InteractiveObject
 
     private State m_state = State.Closed;
     [SerializeField] private Desk.Clues m_clueID;
+    [SerializeField] private bool m_deactivateWhenClosed = false;
 
     enum State
     {
@@ -19,6 +20,11 @@ public class Clue : InteractiveObject
     void Start()
     {
         DefaultStart();
+
+        if(m_deactivateWhenClosed && GlobalManager.Instance.HasFoundClue(m_clueID))
+        {
+            gameObject.SetActive(false);
+        }
     }
 
     void Update()
@@ -65,11 +71,16 @@ public class Clue : InteractiveObject
     {
         m_clueUI.SetActive(true);
         GlobalManager.Instance.AddFoundClue(GetClueID());
+        EnableNextInStory();
     }
 
     public void CloseClue()
     {
         m_clueUI.SetActive(false);
+        if(m_deactivateWhenClosed)
+        {
+            gameObject.SetActive(false);
+        }
     }
 
     public Desk.Clues GetClueID()

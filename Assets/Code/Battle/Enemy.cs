@@ -208,6 +208,7 @@ public class Enemy : InteractiveObject
         m_winPrompt.SetActive(true);
         m_state = State.Defeated;
         GlobalManager.Instance.AddFoundClue(m_clueID);
+        EnableNextInStory();
     }
     private void LooseFight()
     {
