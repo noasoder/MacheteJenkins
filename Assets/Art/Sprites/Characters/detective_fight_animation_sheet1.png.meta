@@ -1,0 +1,444 @@
+fileFormatVersion: 2
+guid: 0fd708fc4de8b6140b9325b51514df55
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 7145765382374644789
+    second: detective_fight_animation_sheet1_0
+  - first:
+      213: 439648085762337713
+    second: detective_fight_animation_sheet1_1
+  - first:
+      213: -5903968064811992459
+    second: detective_fight_animation_sheet1_2
+  - first:
+      213: 7757224542107403055
+    second: detective_fight_animation_sheet1_3
+  - first:
+      213: -2189319528821904043
+    second: detective_fight_animation_sheet1_4
+  - first:
+      213: -7007883614447223444
+    second: detective_fight_animation_sheet1_5
+  - first:
+      213: -5033262146972317615
+    second: detective_fight_animation_sheet1_6
+  - first:
+      213: -741826279720616585
+    second: detective_fight_animation_sheet1_7
+  - first:
+      213: 1998556954935665435
+    second: detective_fight_animation_sheet1_8
+  - first:
+      213: -7382123653423889456
+    second: detective_fight_animation_sheet1_9
+  - first:
+      213: 2963371552861255003
+    second: detective_fight_animation_sheet1_10
+  - first:
+      213: -7407418229007876681
+    second: detective_fight_animation_sheet1_11
+  - first:
+      213: 7912215448563267449
+    second: detective_fight_animation_sheet1_12
+  - first:
+      213: 3796091754230022626
+    second: detective_fight_animation_sheet1_13
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 14
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 16384
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 16384
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: detective_fight_animation_sheet1_0
+      rect:
+        serializedVersion: 2
+        x: 2001
+        y: 91
+        width: 37
+        height: 45
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53c59b061cbda2360800000000000000
+      internalID: 7145765382374644789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: detective_fight_animation_sheet1_1
+      rect:
+        serializedVersion: 2
+        x: 2281
+        y: 91
+        width: 37
+        height: 45
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1bb6b0aca91f91600800000000000000
+      internalID: 439648085762337713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: detective_fight_animation_sheet1_2
+      rect:
+        serializedVersion: 2
+        x: 2562
+        y: 91
+        width: 36
+        height: 45
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57a71ab5354e01ea0800000000000000
+      internalID: -5903968064811992459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: detective_fight_animation_sheet1_3
+      rect:
+        serializedVersion: 2
+        x: 2851
+        y: 91
+        width: 27
+        height: 45
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f23014b1f9237ab60800000000000000
+      internalID: 7757224542107403055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: detective_fight_animation_sheet1_4
+      rect:
+        serializedVersion: 2
+        x: 3133
+        y: 90
+        width: 27
+        height: 46
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55daeb0fc79fd91e0800000000000000
+      internalID: -2189319528821904043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: detective_fight_animation_sheet1_5
+      rect:
+        serializedVersion: 2
+        x: 3414
+        y: 90
+        width: 23
+        height: 46
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6db7956bfefebe90800000000000000
+      internalID: -7007883614447223444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: detective_fight_animation_sheet1_6
+      rect:
+        serializedVersion: 2
+        x: 3694
+        y: 90
+        width: 20
+        height: 46
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1588b44aeb2462ab0800000000000000
+      internalID: -5033262146972317615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: detective_fight_animation_sheet1_7
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 38
+        width: 20
+        height: 46
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77df330dde084b5f0800000000000000
+      internalID: -741826279720616585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: detective_fight_animation_sheet1_8
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 38
+        width: 23
+        height: 46
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b13a35236fc4cbb10800000000000000
+      internalID: 1998556954935665435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: detective_fight_animation_sheet1_9
+      rect:
+        serializedVersion: 2
+        x: 608
+        y: 38
+        width: 27
+        height: 46
+      alignment: 9
+      pivot: {x: 0.44437212, y: -0.0000001658564}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d309ad36ad6d8990800000000000000
+      internalID: -7382123653423889456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: detective_fight_animation_sheet1_10
+      rect:
+        serializedVersion: 2
+        x: 890
+        y: 39
+        width: 27
+        height: 45
+      alignment: 9
+      pivot: {x: 0.3648998, y: 0.009536065}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b55fac90ab2002920800000000000000
+      internalID: 2963371552861255003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: detective_fight_animation_sheet1_11
+      rect:
+        serializedVersion: 2
+        x: 1170
+        y: 39
+        width: 36
+        height: 45
+      alignment: 9
+      pivot: {x: 0.2675544, y: 0.004767948}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7bd7b3ded50933990800000000000000
+      internalID: -7407418229007876681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: detective_fight_animation_sheet1_12
+      rect:
+        serializedVersion: 2
+        x: 1450
+        y: 39
+        width: 37
+        height: 45
+      alignment: 9
+      pivot: {x: 0.25643674, y: 0.0143041825}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 977b8fd9706ddcd60800000000000000
+      internalID: 7912215448563267449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: detective_fight_animation_sheet1_13
+      rect:
+        serializedVersion: 2
+        x: 1730
+        y: 39
+        width: 37
+        height: 45
+      alignment: 9
+      pivot: {x: 0.25064003, y: 0.004767948}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e18ba1865d6ea430800000000000000
+      internalID: 3796091754230022626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

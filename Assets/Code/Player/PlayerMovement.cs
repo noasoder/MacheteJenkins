@@ -28,7 +28,8 @@ public class PlayerMovement : MonoBehaviour
     {
         if(!GlobalManager.Instance.IsPaused() && GlobalManager.Instance.CanMove())
         {
-            if(m_alternativeMovement)
+            Vector2 speed = Vector2.zero;
+            if (m_alternativeMovement)
             {
 
             }
@@ -47,9 +48,10 @@ public class PlayerMovement : MonoBehaviour
                     if (m_spriteRenderer.flipX == !m_reverseFlip)
                         m_spriteRenderer.flipX = m_reverseFlip;
                 }
-
-                m_rb.MovePosition(m_rb.position + m_movement.normalized * m_moveSpeed);
+                speed = m_movement.normalized * m_moveSpeed;
+                m_rb.MovePosition(m_rb.position + speed);
             }
+            Player.Instance.GetAnimator().SetFloat("Speed", speed.sqrMagnitude);
         }
     }
 }

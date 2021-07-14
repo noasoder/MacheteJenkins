@@ -168,9 +168,11 @@ public class Enemy : InteractiveObject
 
                 UpdateKeysText();
                 UpdateKeysPressedText();
+                Player.Instance.GetAnimator().SetTrigger("Fight1");
             }
             else
             {
+                Player.Instance.GetAnimator().SetTrigger("Fight1");
                 WinFight();
             }
         }
@@ -214,6 +216,8 @@ public class Enemy : InteractiveObject
     {
         m_battlePrompt.SetActive(false);
         m_playerDefeatedPrompt.SetActive(true);
+        Player.Instance.GetAnimator().ResetTrigger("Respawn");
+        Player.Instance.GetAnimator().SetTrigger("Death");
     }
     private KeyCode GetKeyCode()
     {
@@ -265,6 +269,8 @@ public class Enemy : InteractiveObject
 
         GlobalManager.Instance.SetCanMove(true);
         Player.Instance.RespawnPlayer(Player.SpawnPositions.AtDesk);
+        Player.Instance.GetAnimator().ResetTrigger("Death");
+        Player.Instance.GetAnimator().SetTrigger("Respawn");
     }
     public void GoToMainMenu()
     {

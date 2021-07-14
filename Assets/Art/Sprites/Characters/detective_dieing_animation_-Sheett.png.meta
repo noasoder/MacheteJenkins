@@ -1,0 +1,429 @@
+fileFormatVersion: 2
+guid: cd71b7a34a946384ea4a58006c520486
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 6601108635010460055
+    second: detective_dieing_animation_-Sheett_0
+  - first:
+      213: 2082766520093117174
+    second: detective_dieing_animation_-Sheett_1
+  - first:
+      213: -6632496665710431512
+    second: detective_dieing_animation_-Sheett_2
+  - first:
+      213: -5758984148416764121
+    second: detective_dieing_animation_-Sheett_3
+  - first:
+      213: 2650782767203871865
+    second: detective_dieing_animation_-Sheett_4
+  - first:
+      213: -3650748816498504269
+    second: detective_dieing_animation_-Sheett_5
+  - first:
+      213: -969901122333385626
+    second: detective_dieing_animation_-Sheett_6
+  - first:
+      213: -6968724389309197330
+    second: detective_dieing_animation_-Sheett_7
+  - first:
+      213: 609174241841099248
+    second: detective_dieing_animation_-Sheett_8
+  - first:
+      213: -6697695530264600064
+    second: detective_dieing_animation_-Sheett_9
+  - first:
+      213: 1685995720306091257
+    second: detective_dieing_animation_-Sheett_10
+  - first:
+      213: -2609181061225290238
+    second: detective_dieing_animation_-Sheett_11
+  - first:
+      213: -8395254572029368544
+    second: detective_dieing_animation_-Sheett_12
+  - first:
+      213: 5761471730833615983
+    second: detective_dieing_animation_-Sheett_13
+  - first:
+      213: -3049683069572296503
+    second: detective_dieing_animation_-Sheett_14
+  - first:
+      213: 6534615545784201205
+    second: detective_dieing_animation_-Sheett_15
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 14
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 16384
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 16384
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: detective_dieing_animation_-Sheett_0
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 90
+        width: 22
+        height: 46
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 799ef815459db9b50800000000000000
+      internalID: 6601108635010460055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: detective_dieing_animation_-Sheett_1
+      rect:
+        serializedVersion: 2
+        x: 412
+        y: 90
+        width: 25
+        height: 46
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6fa0a347d1977ec10800000000000000
+      internalID: 2082766520093117174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: detective_dieing_animation_-Sheett_2
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 90
+        width: 47
+        height: 39
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e2fd5a4c63a4f3a0800000000000000
+      internalID: -6632496665710431512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: detective_dieing_animation_-Sheett_3
+      rect:
+        serializedVersion: 2
+        x: 975
+        y: 89
+        width: 46
+        height: 35
+      alignment: 9
+      pivot: {x: 0.49999866, y: 0.0036111015}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 727638eed6af310b0800000000000000
+      internalID: -5758984148416764121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: detective_dieing_animation_-Sheett_4
+      rect:
+        serializedVersion: 2
+        x: 1247
+        y: 72
+        width: 53
+        height: 36
+      alignment: 9
+      pivot: {x: 0.5176219, y: 0.48659578}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97ce9efd1e879c420800000000000000
+      internalID: 2650782767203871865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: detective_dieing_animation_-Sheett_5
+      rect:
+        serializedVersion: 2
+        x: 1529
+        y: 72
+        width: 53
+        height: 36
+      alignment: 9
+      pivot: {x: 0.50175273, y: 0.4983086}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3bdcd6c3b4fe55dc0800000000000000
+      internalID: -3650748816498504269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: detective_dieing_animation_-Sheett_8
+      rect:
+        serializedVersion: 2
+        x: 1799
+        y: 10
+        width: 53
+        height: 34
+      alignment: 9
+      pivot: {x: 0.13770223, y: 0.46251538}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f1b143deb8347800800000000000000
+      internalID: 609174241841099248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: detective_dieing_animation_-Sheett_9
+      rect:
+        serializedVersion: 2
+        x: 2079
+        y: 19
+        width: 53
+        height: 25
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0026bd0b6610d03a0800000000000000
+      internalID: -6697695530264600064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: detective_dieing_animation_-Sheett_10
+      rect:
+        serializedVersion: 2
+        x: 2358
+        y: 25
+        width: 46
+        height: 35
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f46ca1cc2cd56710800000000000000
+      internalID: 1685995720306091257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: detective_dieing_animation_-Sheett_11
+      rect:
+        serializedVersion: 2
+        x: 2632
+        y: 26
+        width: 47
+        height: 39
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2066dfa16a35acbd0800000000000000
+      internalID: -2609181061225290238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: detective_dieing_animation_-Sheett_12
+      rect:
+        serializedVersion: 2
+        x: 2942
+        y: 26
+        width: 25
+        height: 46
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 027273b52701e7b80800000000000000
+      internalID: -8395254572029368544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: detective_dieing_animation_-Sheett_13
+      rect:
+        serializedVersion: 2
+        x: 3230
+        y: 26
+        width: 22
+        height: 46
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6ceacb730cd4ff40800000000000000
+      internalID: 5761471730833615983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: detective_dieing_animation_-Sheett_15
+      rect:
+        serializedVersion: 2
+        x: 2102
+        y: 12
+        width: 14
+        height: 11
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ff663e873e9faa50800000000000000
+      internalID: 6534615545784201205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

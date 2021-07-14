@@ -6,6 +6,8 @@ public class Player : MonoBehaviour
 {
     public static Player Instance { get; private set; }
 
+    [SerializeField] private Animator m_animator;
+
     public enum SpawnPositions
     {
         AtDesk = 0,
@@ -34,5 +36,9 @@ public class Player : MonoBehaviour
         {
             transform.position = Desk.Instance.GetDeskSpawnPoint();
         }
+    }
+    public Animator GetAnimator()
+    {
+        return m_animator;
     }
 }
