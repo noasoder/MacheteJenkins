@@ -16,7 +16,7 @@ public class Enemy : InteractiveObject
 
     public enum Keys
     {
-        W = 0, A, S, D
+        Q = 0, W, E, R, T, Y, U, I, O, P, A, S, D, F, G, H, J, K, L, Z, X, C, V, B, N, M
     }
 
     enum State
@@ -139,15 +139,6 @@ public class Enemy : InteractiveObject
 
     void OnStateBattle()
     {
-        if(Input.GetKeyDown(KeyCode.K))
-        {
-            WinFight();
-        }
-        if (Input.GetKeyDown(KeyCode.L))
-        {
-            LooseFight();
-        }
-
         if (Input.GetKeyDown(m_nextKey))
         {
             //if keys left in current combination
@@ -179,7 +170,7 @@ public class Enemy : InteractiveObject
 
         if(m_currentTimeLeft <= 0.0f)
         {
-            LooseFight();
+            LooseCombination();
         }
         else
         {
@@ -216,8 +207,27 @@ public class Enemy : InteractiveObject
     {
         m_battlePrompt.SetActive(false);
         m_playerDefeatedPrompt.SetActive(true);
+        m_state = State.Waiting;
         Player.Instance.GetAnimator().ResetTrigger("Respawn");
         Player.Instance.GetAnimator().SetTrigger("Death");
+    }    
+    private void LooseCombination()
+    {
+        if(Player.Instance.TakeDamage(1))
+        {
+            m_currentkeyCombination = 0;
+            m_nextKeyIndex = 0;
+            m_nextKey = GetKeyCode();
+
+            m_currentTimeLeft = m_keyCombinations[m_currentkeyCombination].m_timeToComplete;
+
+            UpdateKeysText();
+            UpdateKeysPressedText();
+        }
+        else
+        {
+            LooseFight();
+        }
     }
     private KeyCode GetKeyCode()
     {
