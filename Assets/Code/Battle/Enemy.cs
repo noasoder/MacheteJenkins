@@ -212,6 +212,7 @@ public class Enemy : InteractiveObject
         //Debug.Log(keyString);
         UpdateKeysText();
         UpdateKeysPressedText();
+        UpdateHearts();
 
         GlobalManager.Instance.SetAbleToPause(false);
         m_state = State.Battle;
@@ -258,6 +259,7 @@ public class Enemy : InteractiveObject
 
             UpdateKeysText();
             UpdateKeysPressedText();
+            UpdateHearts();
 
             LooseFight();
         }
@@ -303,11 +305,20 @@ public class Enemy : InteractiveObject
         {
             if(Player.Instance.GetHealth() <= i)
             {
-                m_hearts[i].sprite = m_heartEmpty;
+                if (m_heartEmpty)
+                    m_hearts[i].sprite = m_heartEmpty;
+                else
+                    m_hearts[i].gameObject.SetActive(false);
             }
             else
             {
-                m_hearts[i].sprite = m_heartFull;
+                if (m_heartEmpty)
+                    m_hearts[i].sprite = m_heartFull;
+                else
+                {
+                    m_hearts[i].sprite = m_heartFull;
+                    m_hearts[i].gameObject.SetActive(true);
+                }
             }
         }
     }

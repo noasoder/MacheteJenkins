@@ -788,7 +788,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_nextInStory: []
   m_defaultSprite: {fileID: 21300000, guid: c99986a6cc94bc24493d03fbdf78247a, type: 3}
-  m_highlightedSprite: {fileID: 21300000, guid: e45302e016da78249b02df03c3ed4ce1, type: 3}
+  m_highlightedSprite: {fileID: 21300000, guid: c99986a6cc94bc24493d03fbdf78247a, type: 3}
   m_highlightDistance: 2
   m_mode: 0
   m_startFightPrompt: {fileID: 8240847162970067608}
@@ -805,8 +805,8 @@ MonoBehaviour:
   - m_timeToComplete: 4
     m_keysToPress: 000000000100000002000000030000000400000005000000
   m_heartParent: {fileID: 56224163455727832}
-  m_heartFull: {fileID: 21300000, guid: c2119bc639f360a49b0e861b613d9b58, type: 3}
-  m_heartEmpty: {fileID: 21300000, guid: 18000ab42102a384084c13908d893f56, type: 3}
+  m_heartFull: {fileID: 21300000, guid: 0b358159dbaa7854bae26950e249af5f, type: 3}
+  m_heartEmpty: {fileID: 0}
 --- !u!212 &8240847163222892216
 SpriteRenderer:
   m_ObjectHideFlags: 0

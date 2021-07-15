@@ -7,7 +7,8 @@ public class Player : MonoBehaviour
     public static Player Instance { get; private set; }
 
     [SerializeField] private Animator m_animator;
-    [SerializeField] private int m_health = 3;
+    [SerializeField] private int m_defaultHealth = 3;
+    private int m_health;
 
     public enum SpawnPositions
     {
@@ -24,6 +25,7 @@ public class Player : MonoBehaviour
     }
     void Start()
     {
+        m_health = m_defaultHealth;
     }
 
     void Update()
@@ -37,6 +39,7 @@ public class Player : MonoBehaviour
         {
             transform.position = Desk.Instance.GetDeskSpawnPoint();
         }
+        m_health = m_defaultHealth;
     }
     public Animator GetAnimator()
     {

@@ -35,6 +35,7 @@ public class ConversationSystem : InteractiveObject
         m_active = true;
         m_currentBubble = 0;
         m_textBubbles[m_currentBubble].SetActive(true);
+        PlayCurrentSound();
     }
     //Activates the next text bubble
     public void NextTextBubble()
@@ -42,8 +43,10 @@ public class ConversationSystem : InteractiveObject
         if(m_textBubbles.Count > m_currentBubble + 1)
         {
             m_textBubbles[m_currentBubble].SetActive(false);
+            StopCurrentSound();
             m_currentBubble++;
             m_textBubbles[m_currentBubble].SetActive(true);
+            PlayCurrentSound();
         }
         else
         {
@@ -58,9 +61,10 @@ public class ConversationSystem : InteractiveObject
     }
     public void ResetConversation()
     {
-        foreach (GameObject item in m_textBubbles)
+        for (int i = 0; i < m_textBubbles.Count; i++)
         {
-            item.SetActive(false);
+            m_textBubbles[i].SetActive(false);
+            StopSound(i);
         }
         m_currentBubble = -1;
         m_active = false;
@@ -73,6 +77,34 @@ public class ConversationSystem : InteractiveObject
             {
                 StartConversation();
             }
+        }
+    }
+    private void PlayCurrentSound()
+    {
+        if (m_textBubbles[m_currentBubble].GetComponent<AudioSource>())
+        {
+            m_textBubbles[m_currentBubble].GetComponent<AudioSource>().Play();
+        }
+    }
+    private void StopCurrentSound()
+    {
+        if (m_textBubbles[m_currentBubble].GetComponent<AudioSource>())
+        {
+            m_textBubbles[m_currentBubble].GetComponent<AudioSource>().Stop();
+        }
+    }
+    private void PlaySound(int index)
+    {
+        if (m_textBubbles[index].GetComponent<AudioSource>())
+        {
+            m_textBubbles[index].GetComponent<AudioSource>().Play();
+        }
+    }
+    private void StopSound(int index)
+    {
+        if (m_textBubbles[index].GetComponent<AudioSource>())
+        {
+            m_textBubbles[index].GetComponent<AudioSource>().Stop();
         }
     }
 }
