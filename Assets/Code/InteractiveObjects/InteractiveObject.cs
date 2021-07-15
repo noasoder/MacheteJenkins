@@ -53,10 +53,12 @@ public class InteractiveObject : MonoBehaviour
         if (vecToPlayer.sqrMagnitude <= m_highlightDistance && !GetIsHighlighted())
         {
             HighlightObject(true);
+            transform.localScale += Vector3.one * 0.5f;
         }
         else if (vecToPlayer.sqrMagnitude > m_highlightDistance && GetIsHighlighted())
         {
             HighlightObject(false);
+            transform.localScale -= Vector3.one * 0.5f;
         }
     }
     void OnModeMouseHover()
@@ -68,7 +70,7 @@ public class InteractiveObject : MonoBehaviour
         if(m_mode == Mode.MouseHover && !GlobalManager.Instance.IsPaused())
         {
             HighlightObject(true);
-            transform.localScale += Vector3.one;
+            transform.localScale += Vector3.one * 0.5f;
         }
     }
     private void OnMouseExit()
@@ -76,7 +78,7 @@ public class InteractiveObject : MonoBehaviour
         if (m_mode == Mode.MouseHover)
         {
             HighlightObject(false);
-            transform.localScale -= Vector3.one;
+            transform.localScale -= Vector3.one * 0.5f;
         }
     }
 

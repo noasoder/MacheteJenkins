@@ -41,7 +41,7 @@ public class SettingsMenu : MonoBehaviour
 
         m_resDropdown.AddOptions(strings);
 
-        Debug.Log(currentResolution);
+        //Debug.Log(currentResolution);
         m_resolutionDropdown.value = currentResolution;
         m_resolutionDropdown.RefreshShownValue();
     }

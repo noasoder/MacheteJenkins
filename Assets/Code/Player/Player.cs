@@ -17,13 +17,13 @@ public class Player : MonoBehaviour
 
     private void Awake()
     {
-    }
-    void Start()
-    {
         if (Instance == null)
         {
             Instance = this;
         }
+    }
+    void Start()
+    {
     }
 
     void Update()
@@ -46,7 +46,11 @@ public class Player : MonoBehaviour
     public bool TakeDamage(int amount)
     {
         m_health -= amount;
-        Debug.Log("Health: " + m_health);
+        //Debug.Log("Health: " + m_health);
         return m_health > 0 ? true : false;
+    }
+    public int GetHealth()
+    {
+        return m_health;
     }
 }

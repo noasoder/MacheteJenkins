@@ -39,7 +39,6 @@ public class Enemy : InteractiveObject
 
 
     [Header("Fighting")]
-
     [SerializeField] private Text m_keysText;
     [SerializeField] private Text m_keysPressedText;
     [SerializeField] private Image m_timeLeftCircle;
@@ -51,6 +50,11 @@ public class Enemy : InteractiveObject
     private int m_nextKeyIndex; //The current key to press
     private float m_currentTimeLeft;
 
+    [Header("Hearts")]
+    [SerializeField] private GameObject m_heartParent;
+    private List<Image> m_hearts;
+    [SerializeField] private Sprite m_heartFull;
+    [SerializeField] private Sprite m_heartEmpty;
 
     void Start()
     {
@@ -60,6 +64,16 @@ public class Enemy : InteractiveObject
         {
             m_state = State.Defeated;
         }
+
+        //Health hearts
+        m_hearts = new List<Image>();
+        Image[] images = m_heartParent.GetComponentsInChildren<Image>();
+        for (int i = 0; i < images.Length; i++)
+        {
+            m_hearts.Add(images[i]);
+        }
+        UpdateHearts();
+
 
         m_winPrompt.SetActive(false);
         m_startFightPrompt.SetActive(false);
@@ -232,6 +246,7 @@ public class Enemy : InteractiveObject
 
             UpdateKeysText();
             UpdateKeysPressedText();
+            UpdateHearts();
         }
         else
         {
@@ -282,7 +297,20 @@ public class Enemy : InteractiveObject
 
         m_keysPressedText.text = keyCombination;
     }
-
+    private void UpdateHearts()
+    {
+        for (int i = 0; i < m_hearts.Count; i++)
+        {
+            if(Player.Instance.GetHealth() <= i)
+            {
+                m_hearts[i].sprite = m_heartEmpty;
+            }
+            else
+            {
+                m_hearts[i].sprite = m_heartFull;
+            }
+        }
+    }
 
 
 
