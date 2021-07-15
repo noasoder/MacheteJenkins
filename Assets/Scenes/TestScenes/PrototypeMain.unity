@@ -128,30 +128,6 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 3164014753395422063, guid: 7272888303c97094a830c98101253347, type: 3}
   m_PrefabInstance: {fileID: 3164014753166207770}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &344570274 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 2164174342999861094, guid: 904b68dd728f0be48abee8dd00a414c7, type: 3}
-  m_PrefabInstance: {fileID: 2164174343233607529}
-  m_PrefabAsset: {fileID: 0}
---- !u!95 &344570276
-Animator:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 344570274}
-  m_Enabled: 1
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: f625fe25d1e817c4c8ebad8bb9893ecb, type: 2}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1001 &423800391
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -22400,11 +22376,6 @@ Tilemap:
     e31: 0
     e32: 0
     e33: 1
---- !u!212 &1832869136 stripped
-SpriteRenderer:
-  m_CorrespondingSourceObject: {fileID: 2164174342999861112, guid: 904b68dd728f0be48abee8dd00a414c7, type: 3}
-  m_PrefabInstance: {fileID: 2164174343233607529}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1953469563
 GameObject:
   m_ObjectHideFlags: 0
@@ -22750,54 +22721,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 2164174342999861112, guid: 904b68dd728f0be48abee8dd00a414c7, type: 3}
-      propertyPath: m_Sprite
-      value: 
-      objectReference: {fileID: 6481601421474307647, guid: 01b33aefe8083514492e0bc40122d165, type: 3}
-    - target: {fileID: 2164174342999861113, guid: 904b68dd728f0be48abee8dd00a414c7, type: 3}
-      propertyPath: m_LocalScale.x
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 2164174342999861113, guid: 904b68dd728f0be48abee8dd00a414c7, type: 3}
-      propertyPath: m_LocalScale.y
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 2164174342999861113, guid: 904b68dd728f0be48abee8dd00a414c7, type: 3}
-      propertyPath: m_LocalScale.z
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 2164174342999861113, guid: 904b68dd728f0be48abee8dd00a414c7, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: -1.05
-      objectReference: {fileID: 0}
-    - target: {fileID: 2164174343280871560, guid: 904b68dd728f0be48abee8dd00a414c7, type: 3}
-      propertyPath: m_Size.x
-      value: 1.6098607
-      objectReference: {fileID: 0}
-    - target: {fileID: 2164174343280871560, guid: 904b68dd728f0be48abee8dd00a414c7, type: 3}
-      propertyPath: m_Size.y
-      value: 0.84810853
-      objectReference: {fileID: 0}
-    - target: {fileID: 2164174343280871560, guid: 904b68dd728f0be48abee8dd00a414c7, type: 3}
-      propertyPath: m_Offset.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2164174343280871560, guid: 904b68dd728f0be48abee8dd00a414c7, type: 3}
-      propertyPath: m_Offset.y
-      value: -0.66
-      objectReference: {fileID: 0}
-    - target: {fileID: 2164174343280871562, guid: 904b68dd728f0be48abee8dd00a414c7, type: 3}
-      propertyPath: m_animator
-      value: 
-      objectReference: {fileID: 344570276}
-    - target: {fileID: 2164174343280871562, guid: 904b68dd728f0be48abee8dd00a414c7, type: 3}
-      propertyPath: m_reverseFlip
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2164174343280871562, guid: 904b68dd728f0be48abee8dd00a414c7, type: 3}
-      propertyPath: m_spriteRenderer
-      value: 
-      objectReference: {fileID: 1832869136}
     - target: {fileID: 2164174343280871563, guid: 904b68dd728f0be48abee8dd00a414c7, type: 3}
       propertyPath: m_RootOrder
       value: 2
@@ -22842,10 +22765,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 2164174343280871565, guid: 904b68dd728f0be48abee8dd00a414c7, type: 3}
-      propertyPath: m_animator
-      value: 
-      objectReference: {fileID: 344570276}
     - target: {fileID: 2164174343280871606, guid: 904b68dd728f0be48abee8dd00a414c7, type: 3}
       propertyPath: m_Name
       value: Player
