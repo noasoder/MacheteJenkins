@@ -26,9 +26,9 @@ public class PlayerMovement : MonoBehaviour
 
     void FixedUpdate()
     {
+        Vector2 speed = Vector2.zero;
         if(!GlobalManager.Instance.IsPaused() && GlobalManager.Instance.CanMove())
         {
-            Vector2 speed = Vector2.zero;
             if (m_alternativeMovement)
             {
 
@@ -51,7 +51,7 @@ public class PlayerMovement : MonoBehaviour
                 speed = m_movement.normalized * m_moveSpeed;
                 m_rb.MovePosition(m_rb.position + speed);
             }
-            Player.Instance.GetAnimator().SetFloat("Speed", speed.sqrMagnitude);
         }
+        Player.Instance.GetAnimator().SetFloat("Speed", speed.sqrMagnitude);
     }
 }

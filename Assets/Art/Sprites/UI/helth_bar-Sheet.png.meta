@@ -1,0 +1,396 @@
+fileFormatVersion: 2
+guid: 1ecffee877371d74fbe2b522502d2f88
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 2865842029629909405
+    second: helth_bar-Sheet_0
+  - first:
+      213: -278844756134087592
+    second: helth_bar-Sheet_1
+  - first:
+      213: -5162499702407762129
+    second: helth_bar-Sheet_2
+  - first:
+      213: 3330442912799027885
+    second: helth_bar-Sheet_3
+  - first:
+      213: -8917768065312449959
+    second: helth_bar-Sheet_4
+  - first:
+      213: -538303783042348581
+    second: helth_bar-Sheet_5
+  - first:
+      213: 7613331424750588140
+    second: helth_bar-Sheet_6
+  - first:
+      213: -3065166800288821709
+    second: helth_bar-Sheet_7
+  - first:
+      213: -5807830543372774792
+    second: helth_bar-Sheet_8
+  - first:
+      213: -1542200494155567915
+    second: helth_bar-Sheet_9
+  - first:
+      213: -2132366137784018207
+    second: helth_bar-Sheet_10
+  - first:
+      213: -5753761888486470763
+    second: helth_bar-Sheet_11
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: helth_bar-Sheet_0
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 39
+        width: 63
+        height: 28
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d99a97e542485c720800000000000000
+      internalID: 2865842029629909405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: helth_bar-Sheet_1
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 39
+        width: 63
+        height: 28
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 854b523fb28512cf0800000000000000
+      internalID: -278844756134087592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: helth_bar-Sheet_2
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 39
+        width: 63
+        height: 28
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2fecec6fdd1b58b0800000000000000
+      internalID: -5162499702407762129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: helth_bar-Sheet_3
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 39
+        width: 63
+        height: 28
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da27a1a0f2c183e20800000000000000
+      internalID: 3330442912799027885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: helth_bar-Sheet_4
+      rect:
+        serializedVersion: 2
+        x: 421
+        y: 39
+        width: 63
+        height: 28
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95a9ab56139bd3480800000000000000
+      internalID: -8917768065312449959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: helth_bar-Sheet_5
+      rect:
+        serializedVersion: 2
+        x: 521
+        y: 39
+        width: 63
+        height: 28
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd90386bf8f8788f0800000000000000
+      internalID: -538303783042348581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: helth_bar-Sheet_6
+      rect:
+        serializedVersion: 2
+        x: 621
+        y: 39
+        width: 63
+        height: 28
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce0d399f79cf7a960800000000000000
+      internalID: 7613331424750588140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: helth_bar-Sheet_7
+      rect:
+        serializedVersion: 2
+        x: 721
+        y: 39
+        width: 63
+        height: 28
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33ec67bf8075675d0800000000000000
+      internalID: -3065166800288821709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: helth_bar-Sheet_8
+      rect:
+        serializedVersion: 2
+        x: 821
+        y: 39
+        width: 63
+        height: 28
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8721a9a54e0766fa0800000000000000
+      internalID: -5807830543372774792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: helth_bar-Sheet_9
+      rect:
+        serializedVersion: 2
+        x: 921
+        y: 39
+        width: 63
+        height: 28
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5dcec6d42d0099ae0800000000000000
+      internalID: -1542200494155567915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: helth_bar-Sheet_10
+      rect:
+        serializedVersion: 2
+        x: 1021
+        y: 39
+        width: 63
+        height: 28
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1eadf42ab405862e0800000000000000
+      internalID: -2132366137784018207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: helth_bar-Sheet_11
+      rect:
+        serializedVersion: 2
+        x: 1119
+        y: 39
+        width: 67
+        height: 30
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59b45921c088620b0800000000000000
+      internalID: -5753761888486470763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

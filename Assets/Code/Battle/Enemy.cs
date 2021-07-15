@@ -51,10 +51,7 @@ public class Enemy : InteractiveObject
     private float m_currentTimeLeft;
 
     [Header("Hearts")]
-    [SerializeField] private GameObject m_heartParent;
-    private List<Image> m_hearts;
-    [SerializeField] private Sprite m_heartFull;
-    [SerializeField] private Sprite m_heartEmpty;
+    [SerializeField] private Animator m_healthAnim;
 
     void Start()
     {
@@ -65,13 +62,6 @@ public class Enemy : InteractiveObject
             m_state = State.Defeated;
         }
 
-        //Health hearts
-        m_hearts = new List<Image>();
-        Image[] images = m_heartParent.GetComponentsInChildren<Image>();
-        for (int i = 0; i < images.Length; i++)
-        {
-            m_hearts.Add(images[i]);
-        }
         UpdateHearts();
 
 
@@ -95,7 +85,6 @@ public class Enemy : InteractiveObject
                     OnStateWaiting();
                     break;
                 case State.Talking:
-                    OnStateTalking();
                     break;
                 case State.Battle:
                     OnStateBattle();
@@ -116,10 +105,6 @@ public class Enemy : InteractiveObject
             GlobalManager.Instance.SetCanMove(false);
             m_state = State.Talking;
         }
-    }
-    void OnStateTalking()
-    {
-
     }
     void OnStateDefeated()
     {
@@ -203,6 +188,7 @@ public class Enemy : InteractiveObject
     {
         m_startFightPrompt.SetActive(false);
         m_battlePrompt.SetActive(true);
+        m_healthAnim.gameObject.SetActive(true);
 
         m_currentTimeLeft = m_keyCombinations[m_currentkeyCombination].m_timeToComplete;
         
@@ -301,32 +287,14 @@ public class Enemy : InteractiveObject
     }
     private void UpdateHearts()
     {
-        for (int i = 0; i < m_hearts.Count; i++)
-        {
-            if(Player.Instance.GetHealth() <= i)
-            {
-                if (m_heartEmpty)
-                    m_hearts[i].sprite = m_heartEmpty;
-                else
-                    m_hearts[i].gameObject.SetActive(false);
-            }
-            else
-            {
-                if (m_heartEmpty)
-                    m_hearts[i].sprite = m_heartFull;
-                else
-                {
-                    m_hearts[i].sprite = m_heartFull;
-                    m_hearts[i].gameObject.SetActive(true);
-                }
-            }
-        }
+        m_healthAnim.SetInteger("Health", Player.Instance.GetHealth());
     }
 
 
 
     public void RespawnPlayer()
     {
+        m_healthAnim.gameObject.SetActive(false);
         m_state = State.Waiting;
 
         m_winPrompt.SetActive(false);
