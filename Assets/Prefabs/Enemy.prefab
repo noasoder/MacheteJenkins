@@ -1684,10 +1684,6 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
       value: MainMenu
       objectReference: {fileID: 0}
-    - target: {fileID: 5742388489248702467, guid: 2f795c36680a21045b36e3fe9b849d11, type: 3}
-      propertyPath: m_Sprite
-      value: 
-      objectReference: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
     - target: {fileID: 5742388490750794578, guid: 2f795c36680a21045b36e3fe9b849d11, type: 3}
       propertyPath: m_Text
       value: Main Menu
@@ -1940,10 +1936,6 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
       value: Enemy, Assembly-CSharp
       objectReference: {fileID: 0}
-    - target: {fileID: 5742388489248702467, guid: 2f795c36680a21045b36e3fe9b849d11, type: 3}
-      propertyPath: m_Sprite
-      value: 
-      objectReference: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
     - target: {fileID: 5742388490750794578, guid: 2f795c36680a21045b36e3fe9b849d11, type: 3}
       propertyPath: m_Text
       value: Maybe Later
