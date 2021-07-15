@@ -11,6 +11,8 @@ public class ConversationSystem : InteractiveObject
     [SerializeField] private bool m_disableAfterUse = false;
     [SerializeField] private bool m_useTriggerToActivate = false;
 
+    private Animator m_animator;
+
     void Start()
     {
         DefaultStart();
@@ -19,6 +21,8 @@ public class ConversationSystem : InteractiveObject
         {
             item.SetActive(false);
         }
+
+        m_animator = GetComponent<Animator>();
     }
 
     private void Update()
@@ -36,6 +40,9 @@ public class ConversationSystem : InteractiveObject
         m_currentBubble = 0;
         m_textBubbles[m_currentBubble].SetActive(true);
         PlayCurrentSound();
+        if(m_animator)
+            m_animator.SetTrigger("StartTalk");
+        GlobalManager.Instance.SetCanMove(false);
     }
     //Activates the next text bubble
     public void NextTextBubble()
@@ -68,6 +75,9 @@ public class ConversationSystem : InteractiveObject
         }
         m_currentBubble = -1;
         m_active = false;
+        if (m_animator)
+            m_animator.SetTrigger("StopTalk");
+        GlobalManager.Instance.SetCanMove(true);
     }
     private void OnTriggerEnter2D(Collider2D col)
     {

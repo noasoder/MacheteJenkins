@@ -53,12 +53,12 @@ public class InteractiveObject : MonoBehaviour
         if (vecToPlayer.sqrMagnitude <= m_highlightDistance && !GetIsHighlighted())
         {
             HighlightObject(true);
-            transform.localScale += Vector3.one * 0.5f;
+            //transform.localScale += Vector3.one * 0.5f;
         }
         else if (vecToPlayer.sqrMagnitude > m_highlightDistance && GetIsHighlighted())
         {
             HighlightObject(false);
-            transform.localScale -= Vector3.one * 0.5f;
+            //transform.localScale -= Vector3.one * 0.5f;
         }
     }
     void OnModeMouseHover()
