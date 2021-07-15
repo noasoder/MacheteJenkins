@@ -16,6 +16,7 @@ public class GlobalManager : MonoBehaviour
     [HideInInspector] public HelperFunctions m_helperFunctions;
 
     private List<Desk.Clues> m_foundClues;
+    private bool m_ableToPause = true;
     private bool m_isPaused = false;
     private bool m_canMove = true;
 
@@ -84,5 +85,12 @@ public class GlobalManager : MonoBehaviour
     {
         m_canMove = canMove;
     }
-
+    public bool AbleToPause()
+    {
+        return m_ableToPause;
+    }
+    public void SetAbleToPause(bool ableToPause)
+    {
+        m_ableToPause = ableToPause;
+    }
 }

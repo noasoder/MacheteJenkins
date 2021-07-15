@@ -167,6 +167,13 @@ public class Enemy : InteractiveObject
                 WinFight();
             }
         }
+        else
+        {
+            if (Input.anyKeyDown)
+            {
+                LooseCombination();
+            }
+        }
 
         if(m_currentTimeLeft <= 0.0f)
         {
@@ -177,7 +184,6 @@ public class Enemy : InteractiveObject
             m_currentTimeLeft -= Time.deltaTime;
             m_timeLeftCircle.fillAmount = GetKeyCombinationTimeProgress();
         }
-
     }
     public void StartFight()
     {
@@ -193,6 +199,7 @@ public class Enemy : InteractiveObject
         UpdateKeysText();
         UpdateKeysPressedText();
 
+        GlobalManager.Instance.SetAbleToPause(false);
         m_state = State.Battle;
     }
     private void WinFight()
@@ -201,6 +208,7 @@ public class Enemy : InteractiveObject
         m_winPrompt.SetActive(true);
         m_state = State.Defeated;
         GlobalManager.Instance.AddFoundClue(m_clueID);
+        GlobalManager.Instance.SetAbleToPause(true);
         EnableNextInStory();
     }
     private void LooseFight()
@@ -208,6 +216,7 @@ public class Enemy : InteractiveObject
         m_battlePrompt.SetActive(false);
         m_playerDefeatedPrompt.SetActive(true);
         m_state = State.Waiting;
+        GlobalManager.Instance.SetAbleToPause(true);
         Player.Instance.GetAnimator().ResetTrigger("Respawn");
         Player.Instance.GetAnimator().SetTrigger("Death");
     }    
@@ -226,6 +235,15 @@ public class Enemy : InteractiveObject
         }
         else
         {
+            m_currentkeyCombination = 0;
+            m_nextKeyIndex = 0;
+            m_nextKey = GetKeyCode();
+
+            m_currentTimeLeft = m_keyCombinations[m_currentkeyCombination].m_timeToComplete;
+
+            UpdateKeysText();
+            UpdateKeysPressedText();
+
             LooseFight();
         }
     }

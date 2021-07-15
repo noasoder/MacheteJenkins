@@ -352,6 +352,18 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5742388489248702466, guid: 2f795c36680a21045b36e3fe9b849d11, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5742388489248702466, guid: 2f795c36680a21045b36e3fe9b849d11, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 586938017}
+    - target: {fileID: 5742388489248702466, guid: 2f795c36680a21045b36e3fe9b849d11, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: QuitApplication
+      objectReference: {fileID: 0}
     - target: {fileID: 5742388490750794578, guid: 2f795c36680a21045b36e3fe9b849d11, type: 3}
       propertyPath: m_Text
       value: Quit
@@ -457,6 +469,18 @@ PrefabInstance:
     - target: {fileID: 5742388489248702465, guid: 2f795c36680a21045b36e3fe9b849d11, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5742388489248702466, guid: 2f795c36680a21045b36e3fe9b849d11, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 586938017}
+    - target: {fileID: 5742388489248702466, guid: 2f795c36680a21045b36e3fe9b849d11, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: LoadScene
+      objectReference: {fileID: 0}
+    - target: {fileID: 5742388489248702466, guid: 2f795c36680a21045b36e3fe9b849d11, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
+      value: SettingsMenu
       objectReference: {fileID: 0}
     - target: {fileID: 5742388490750794578, guid: 2f795c36680a21045b36e3fe9b849d11, type: 3}
       propertyPath: m_Text
