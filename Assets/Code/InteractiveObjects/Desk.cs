@@ -12,7 +12,7 @@ public class Desk : MonoBehaviour
 
     public enum Clues
     {
-        FingerPrint = 0,
+        Fingerprint = 0,
         Wallet, 
         Note,
         CigaretteButts,
@@ -20,6 +20,7 @@ public class Desk : MonoBehaviour
         Footprints,
         RippedClothing,
         HotDog,
+        BrokenBottles,
         Fight1Clue,
         Fight2Clue
     }
@@ -38,13 +39,12 @@ public class Desk : MonoBehaviour
         {
             m_cluesToActivate.Add(item);
         }
-
-        GlobalManager.Instance.AddedClueEvent.AddListener(UpdateClues);
-        GlobalManager.Instance.RemovedClueEvent.AddListener(UpdateClues);
     }
 
     void Start()
     {
+        GlobalManager.Instance.AddedClueEvent.AddListener(UpdateClues);
+        GlobalManager.Instance.RemovedClueEvent.AddListener(UpdateClues);
         UpdateClues();
     }
 

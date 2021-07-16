@@ -13,7 +13,15 @@ public class ConversationSystem : InteractiveObject
 
     private Animator m_animator;
 
-    void Start()
+    private void Start()
+    {
+        ConvoStart();
+    }
+    private void Update()
+    {
+        ConvoUpdate();
+    }
+    public void ConvoStart()
     {
         DefaultStart();
 
@@ -25,7 +33,7 @@ public class ConversationSystem : InteractiveObject
         m_animator = GetComponent<Animator>();
     }
 
-    private void Update()
+    public void ConvoUpdate()
     {
         DefaultUpdate();
 

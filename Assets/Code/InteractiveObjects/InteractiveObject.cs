@@ -23,12 +23,14 @@ public class InteractiveObject : MonoBehaviour
     {
         Highlight = 0,
         MouseHover,
+        NotInteractive
     }
 
     public void DefaultStart()
     {
         m_player = GameObject.FindWithTag("Player");
-        m_spriteRenderer = GetComponent<SpriteRenderer>();
+        if(m_mode != Mode.NotInteractive)
+            m_spriteRenderer = GetComponent<SpriteRenderer>();
     }
 
     public void DefaultUpdate()

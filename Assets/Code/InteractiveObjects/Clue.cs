@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Clue : InteractiveObject
+public class Clue : ConversationSystem
 {
     [SerializeField] private GameObject m_clueUI;
 
@@ -19,7 +19,7 @@ public class Clue : InteractiveObject
 
     void Start()
     {
-        DefaultStart();
+        ConvoStart();
 
         if(m_deactivateWhenClosed && GlobalManager.Instance.HasFoundClue(m_clueID))
         {
@@ -29,10 +29,10 @@ public class Clue : InteractiveObject
 
     void Update()
     {
+        ConvoUpdate();
+
         if(!GlobalManager.Instance.IsPaused())
         {
-            DefaultUpdate();
-
             switch (m_state)
             {
                 case State.Closed:
@@ -69,14 +69,14 @@ public class Clue : InteractiveObject
 
     void OpenClue()
     {
-        m_clueUI.SetActive(true);
+        StartConversation();
         GlobalManager.Instance.AddFoundClue(GetClueID());
-        EnableNextInStory();
     }
 
     public void CloseClue()
     {
-        m_clueUI.SetActive(false);
+        if (m_clueUI)
+            m_clueUI.SetActive(false);
         if(m_deactivateWhenClosed)
         {
             gameObject.SetActive(false);
