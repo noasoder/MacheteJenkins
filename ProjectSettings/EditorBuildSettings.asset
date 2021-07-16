@@ -17,4 +17,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/TestScenes/PrototypeMain.unity
     guid: 2cda990e2423bbf4892e6590ba056729
+  - enabled: 1
+    path: Assets/Scenes/CrimeScene.unity
+    guid: 005632afd505805408d73b1dae773453
+  - enabled: 1
+    path: Assets/Scenes/ChiefsHomeScene.unity
+    guid: 635ff02d3a5a22a4ea675c938186b5e7
   m_configObjects: {}

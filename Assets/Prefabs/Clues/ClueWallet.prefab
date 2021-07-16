@@ -52,7 +52,9 @@ MonoBehaviour:
   m_highlightedSprite: {fileID: 21300000, guid: fbf62e10222464548918a4d9f4144ff0, type: 3}
   m_highlightDistance: 2
   m_mode: 0
-  m_textBubbles: []
+  m_textBubbles:
+  - {fileID: 4938446833190562564}
+  - {fileID: 4938446832562035830}
   m_currentBubble: -1
   m_disableAfterUse: 0
   m_useTriggerToActivate: 0
@@ -351,6 +353,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 74f1dabecd3e03d42a0e2418ed56a2d9, type: 3}
+--- !u!1 &4938446832562035830 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 9196774954609981784, guid: 74f1dabecd3e03d42a0e2418ed56a2d9, type: 3}
+  m_PrefabInstance: {fileID: 4263045323452048686}
+  m_PrefabAsset: {fileID: 0}
 --- !u!224 &4938446832562035831 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 9196774954609981785, guid: 74f1dabecd3e03d42a0e2418ed56a2d9, type: 3}
@@ -469,6 +476,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 967591e89698d3f40b5e72c0e8b15217, type: 3}
+--- !u!1 &4938446833190562564 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 9196774954609981784, guid: 967591e89698d3f40b5e72c0e8b15217, type: 3}
+  m_PrefabInstance: {fileID: 4263045324878467676}
+  m_PrefabAsset: {fileID: 0}
 --- !u!224 &4938446833190562565 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 9196774954609981785, guid: 967591e89698d3f40b5e72c0e8b15217, type: 3}
