@@ -133649,7 +133649,7 @@ MonoBehaviour:
   m_useTriggerToActivate: 0
   m_clueUI: {fileID: 366685798403277563}
   m_clueID: 3
-  m_deactivateWhenClosed: 0
+  m_deactivateWhenClosed: 1
 --- !u!114 &366685798403277560
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -134174,7 +134174,7 @@ MonoBehaviour:
   m_useTriggerToActivate: 0
   m_clueUI: {fileID: 4420756294403395776}
   m_clueID: 6
-  m_deactivateWhenClosed: 0
+  m_deactivateWhenClosed: 1
 --- !u!1 &4420756294314330557
 GameObject:
   m_ObjectHideFlags: 0
@@ -134833,7 +134833,7 @@ MonoBehaviour:
   m_useTriggerToActivate: 0
   m_clueUI: {fileID: 8012413569469638037}
   m_clueID: 8
-  m_deactivateWhenClosed: 0
+  m_deactivateWhenClosed: 1
 --- !u!4 &8012413569550318826
 Transform:
   m_ObjectHideFlags: 0
