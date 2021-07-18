@@ -10,6 +10,7 @@ public class GlobalManager : MonoBehaviour
     [HideInInspector] public UnityEvent AddedClueEvent = new UnityEvent();
     [HideInInspector] public UnityEvent RemovedClueEvent = new UnityEvent();
     [HideInInspector] public UnityEvent IsPausedEvent = new UnityEvent();
+    [HideInInspector] public UnityEvent RollCreditsEvent = new UnityEvent();
 
     public static GlobalManager Instance { get; private set; }
 

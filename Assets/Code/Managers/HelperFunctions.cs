@@ -23,6 +23,6 @@ public class HelperFunctions : MonoBehaviour
     }
     public void TriggerCredits()
     {
-
+        GlobalManager.Instance.RollCreditsEvent.Invoke();
     }
 }
