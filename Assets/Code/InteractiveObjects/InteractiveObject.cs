@@ -16,6 +16,7 @@ public class InteractiveObject : MonoBehaviour
 
     private bool m_highlighted = false;
     [SerializeField] private float m_highlightDistance = 2f;
+    [SerializeField] private bool m_zoomInOnHighlighted = true;
 
     [SerializeField] private Mode m_mode = Mode.Highlight;
 
@@ -54,13 +55,11 @@ public class InteractiveObject : MonoBehaviour
 
         if (vecToPlayer.sqrMagnitude <= m_highlightDistance && !GetIsHighlighted())
         {
-            HighlightObject(true);
-            transform.localScale += Vector3.one * 0.5f;
+            HighlightObject(true, m_zoomInOnHighlighted);
         }
         else if (vecToPlayer.sqrMagnitude > m_highlightDistance && GetIsHighlighted())
         {
-            HighlightObject(false);
-            transform.localScale -= Vector3.one * 0.5f;
+            HighlightObject(false, m_zoomInOnHighlighted);
         }
     }
     void OnModeMouseHover()
@@ -71,29 +70,36 @@ public class InteractiveObject : MonoBehaviour
     {
         if(m_mode == Mode.MouseHover && !GlobalManager.Instance.IsPaused())
         {
-            HighlightObject(true);
-            transform.localScale += Vector3.one * 0.5f;
+            HighlightObject(true, m_zoomInOnHighlighted);
+            
         }
     }
     private void OnMouseExit()
     {
         if (m_mode == Mode.MouseHover)
         {
-            HighlightObject(false);
+            HighlightObject(false, m_zoomInOnHighlighted);
             transform.localScale -= Vector3.one * 0.5f;
         }
     }
 
-    private void HighlightObject(bool highlight)
+    private void HighlightObject(bool highlight, bool zoomIn)
     {
         m_highlighted = highlight;
 
-
         //highlight stuff
         if(highlight)
+        {
+            if(zoomIn)
+                transform.localScale += Vector3.one * 0.5f;
             m_spriteRenderer.sprite = m_highlightedSprite;
+        }
         else
+        {
+            if (zoomIn)
+                transform.localScale -= Vector3.one * 0.5f;
             m_spriteRenderer.sprite = m_defaultSprite;
+        }
     }
 
     public bool GetIsHighlighted()

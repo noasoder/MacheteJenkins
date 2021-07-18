@@ -36,7 +36,7 @@ public class Enemy : InteractiveObject
 
     private State m_state = State.Waiting;
     [SerializeField] private Desk.Clues m_clueID = Desk.Clues.Fight1Clue;
-
+    [SerializeField] private bool m_useTriggerToActivate = false;
 
     [Header("Fighting")]
     [SerializeField] private Text m_keysText;
@@ -94,6 +94,18 @@ public class Enemy : InteractiveObject
                     break;
                 default:
                     break;
+            }
+        }
+    }
+    private void OnTriggerEnter2D(Collider2D col)
+    {
+        if (col.CompareTag("Player"))
+        {
+            if (m_state == State.Waiting && m_useTriggerToActivate)
+            {
+                m_startFightPrompt.SetActive(true);
+                GlobalManager.Instance.SetCanMove(false);
+                m_state = State.Talking;
             }
         }
     }

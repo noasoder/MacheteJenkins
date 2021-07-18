@@ -21,4 +21,8 @@ public class HelperFunctions : MonoBehaviour
     {
         GlobalManager.Instance.SetPaused(isPaused);
     }
+    public void TriggerCredits()
+    {
+
+    }
 }
