@@ -5,6 +5,9 @@ using UnityEngine.Audio;
 
 public class AudioManager : MonoBehaviour
 {
+    public static AudioManager Instance { get; private set; }
+
+
     [SerializeField] private List<AudioSource> m_music;
 
     [SerializeField] private Music m_currentMusic = Music.NoMusic;
@@ -17,6 +20,18 @@ public class AudioManager : MonoBehaviour
         Music2,
         Music3
     };
+
+    private void Awake()
+    {
+        if(Instance == null)
+        {
+            Instance = this;
+        }
+        else
+        {
+            Destroy(this);
+        }
+    }
 
     void Start()
     {

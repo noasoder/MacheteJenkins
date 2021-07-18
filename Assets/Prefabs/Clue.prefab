@@ -60,7 +60,8 @@ MonoBehaviour:
   m_clueUI: {fileID: 1857328360453210812}
   m_clueID: 6
   m_deactivateWhenClosed: 0
-  m_clueAudio: {fileID: 0}
+  m_additionalVisual: {fileID: 0}
+  m_hideOnRange: 0
 --- !u!212 &1857328360439651266
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -147,7 +148,7 @@ AudioSource:
   m_GameObject: {fileID: 1857328360439651265}
   m_Enabled: 1
   serializedVersion: 4
-  OutputAudioMixerGroup: {fileID: 0}
+  OutputAudioMixerGroup: {fileID: 24300002, guid: 304a8830c02b68741adf1110fb1302c5, type: 2}
   m_audioClip: {fileID: 8300000, guid: bebc2815751420c41887f1d565b16bd9, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 1
