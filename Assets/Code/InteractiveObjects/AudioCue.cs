@@ -19,16 +19,16 @@ public class AudioCue : MonoBehaviour
         
     }
     
-    private void OnTriggerEnter2D(Collider2D collision)
-    {
-        if (collision.tag == "Player" && !played)
-        {
-            played = true;
-            PlayCue();
-        }
-    }
+    //private void OnTriggerEnter2D(Collider2D collision)
+    //{
+    //    if (collision.tag == "Player" && !played)
+    //    {
+    //        played = true;
+    //        PlayCue();
+    //    }
+    //}
 
-   private void PlayCue()
+   public void PlayCue()
     {
         cue.Play();
     }

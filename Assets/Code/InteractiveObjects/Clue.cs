@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Audio;
 
 public class Clue : ConversationSystem
 {
@@ -9,6 +10,8 @@ public class Clue : ConversationSystem
     private State m_state = State.Closed;
     [SerializeField] private Desk.Clues m_clueID;
     [SerializeField] private bool m_deactivateWhenClosed = false;
+
+    private AudioSource m_clueAudio;
 
     enum State
     {
@@ -20,6 +23,8 @@ public class Clue : ConversationSystem
     void Start()
     {
         ConvoStart();
+
+        m_clueAudio = GetComponent<AudioSource>();
 
         if(m_deactivateWhenClosed && GlobalManager.Instance.HasFoundClue(m_clueID))
         {
@@ -69,6 +74,8 @@ public class Clue : ConversationSystem
 
     void OpenClue()
     {
+        if(!m_clueAudio.isPlaying)
+            m_clueAudio.Play();
         StartConversation();
         GlobalManager.Instance.AddFoundClue(GetClueID());
     }
