@@ -444,6 +444,42 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5742388489248702466, guid: 2f795c36680a21045b36e3fe9b849d11, type: 3}
+      propertyPath: m_Colors.m_NormalColor.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5742388489248702466, guid: 2f795c36680a21045b36e3fe9b849d11, type: 3}
+      propertyPath: m_Colors.m_NormalColor.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5742388489248702466, guid: 2f795c36680a21045b36e3fe9b849d11, type: 3}
+      propertyPath: m_Colors.m_NormalColor.r
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5742388489248702466, guid: 2f795c36680a21045b36e3fe9b849d11, type: 3}
+      propertyPath: m_Colors.m_SelectedColor.b
+      value: 0.23584908
+      objectReference: {fileID: 0}
+    - target: {fileID: 5742388489248702466, guid: 2f795c36680a21045b36e3fe9b849d11, type: 3}
+      propertyPath: m_Colors.m_SelectedColor.g
+      value: 0.23584908
+      objectReference: {fileID: 0}
+    - target: {fileID: 5742388489248702466, guid: 2f795c36680a21045b36e3fe9b849d11, type: 3}
+      propertyPath: m_Colors.m_SelectedColor.r
+      value: 0.23584908
+      objectReference: {fileID: 0}
+    - target: {fileID: 5742388489248702466, guid: 2f795c36680a21045b36e3fe9b849d11, type: 3}
+      propertyPath: m_Colors.m_HighlightedColor.b
+      value: 0.23584908
+      objectReference: {fileID: 0}
+    - target: {fileID: 5742388489248702466, guid: 2f795c36680a21045b36e3fe9b849d11, type: 3}
+      propertyPath: m_Colors.m_HighlightedColor.g
+      value: 0.23584908
+      objectReference: {fileID: 0}
+    - target: {fileID: 5742388489248702466, guid: 2f795c36680a21045b36e3fe9b849d11, type: 3}
+      propertyPath: m_Colors.m_HighlightedColor.r
+      value: 0.23584908
+      objectReference: {fileID: 0}
+    - target: {fileID: 5742388489248702466, guid: 2f795c36680a21045b36e3fe9b849d11, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
       value: 1
       objectReference: {fileID: 0}
@@ -458,6 +494,14 @@ PrefabInstance:
     - target: {fileID: 5742388489248702466, guid: 2f795c36680a21045b36e3fe9b849d11, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
       value: ConversationSystem, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 5742388489248702467, guid: 2f795c36680a21045b36e3fe9b849d11, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 5311525072922181127, guid: 13b31a1fddd68b84e9ccb5ba6c150fdd, type: 3}
+    - target: {fileID: 5742388490750794576, guid: 2f795c36680a21045b36e3fe9b849d11, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5742388490750794578, guid: 2f795c36680a21045b36e3fe9b849d11, type: 3}
       propertyPath: m_Text

@@ -79,7 +79,6 @@ public class InteractiveObject : MonoBehaviour
         if (m_mode == Mode.MouseHover)
         {
             HighlightObject(false, m_zoomInOnHighlighted);
-            transform.localScale -= Vector3.one * 0.5f;
         }
     }
 

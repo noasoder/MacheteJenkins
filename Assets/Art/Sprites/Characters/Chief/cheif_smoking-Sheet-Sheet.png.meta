@@ -1,7 +1,151 @@
 fileFormatVersion: 2
 guid: 239291973771d984facf97b62d9659f1
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: 2808567691622069592
+    second: cheif_smoking-Sheet-Sheet_0
+  - first:
+      213: 8586295326102972937
+    second: cheif_smoking-Sheet-Sheet_1
+  - first:
+      213: 2331982146824750701
+    second: cheif_smoking-Sheet-Sheet_2
+  - first:
+      213: 8276701369569096773
+    second: cheif_smoking-Sheet-Sheet_3
+  - first:
+      213: 8585685003311858715
+    second: cheif_smoking-Sheet-Sheet_4
+  - first:
+      213: -6916190895579007692
+    second: cheif_smoking-Sheet-Sheet_5
+  - first:
+      213: -9140512212744019567
+    second: cheif_smoking-Sheet-Sheet_6
+  - first:
+      213: 5764639116878963155
+    second: cheif_smoking-Sheet-Sheet_7
+  - first:
+      213: 4439171004970302252
+    second: cheif_smoking-Sheet-Sheet_8
+  - first:
+      213: -1915493795690609903
+    second: cheif_smoking-Sheet-Sheet_9
+  - first:
+      213: 376521618644415269
+    second: cheif_smoking-Sheet-Sheet_10
+  - first:
+      213: -8314434881619371841
+    second: cheif_smoking-Sheet-Sheet_11
+  - first:
+      213: 3494957823752776280
+    second: cheif_smoking-Sheet-Sheet_12
+  - first:
+      213: 4273680097522173740
+    second: cheif_smoking-Sheet-Sheet_13
+  - first:
+      213: 3646470932698661632
+    second: cheif_smoking-Sheet-Sheet_14
+  - first:
+      213: -194488224384968538
+    second: cheif_smoking-Sheet-Sheet_15
+  - first:
+      213: 6051605078675490104
+    second: cheif_smoking-Sheet-Sheet_16
+  - first:
+      213: -7974159399714998243
+    second: cheif_smoking-Sheet-Sheet_17
+  - first:
+      213: -6932168725808306350
+    second: cheif_smoking-Sheet-Sheet_18
+  - first:
+      213: 3505837561051987876
+    second: cheif_smoking-Sheet-Sheet_19
+  - first:
+      213: 8546277336685277490
+    second: cheif_smoking-Sheet-Sheet_20
+  - first:
+      213: -13028782404219370
+    second: cheif_smoking-Sheet-Sheet_21
+  - first:
+      213: 1959516221065655392
+    second: cheif_smoking-Sheet-Sheet_22
+  - first:
+      213: 2233777728677016226
+    second: cheif_smoking-Sheet-Sheet_23
+  - first:
+      213: 7748791767616783458
+    second: cheif_smoking-Sheet-Sheet_24
+  - first:
+      213: -5784406975637053907
+    second: cheif_smoking-Sheet-Sheet_25
+  - first:
+      213: 6406858112223982720
+    second: cheif_smoking-Sheet-Sheet_26
+  - first:
+      213: -2264062508046816388
+    second: cheif_smoking-Sheet-Sheet_27
+  - first:
+      213: 5330223122826067311
+    second: cheif_smoking-Sheet-Sheet_28
+  - first:
+      213: 8660829639822295924
+    second: cheif_smoking-Sheet-Sheet_29
+  - first:
+      213: 1811820416968759609
+    second: cheif_smoking-Sheet-Sheet_30
+  - first:
+      213: -1947237827427193604
+    second: cheif_smoking-Sheet-Sheet_31
+  - first:
+      213: -9185220431872245324
+    second: cheif_smoking-Sheet-Sheet_32
+  - first:
+      213: -4827558110596187814
+    second: cheif_smoking-Sheet-Sheet_33
+  - first:
+      213: -3445471991328733422
+    second: cheif_smoking-Sheet-Sheet_34
+  - first:
+      213: -4125358539674817509
+    second: cheif_smoking-Sheet-Sheet_35
+  - first:
+      213: 7474436984184151380
+    second: cheif_smoking-Sheet-Sheet_36
+  - first:
+      213: -2055800702203082338
+    second: cheif_smoking-Sheet-Sheet_37
+  - first:
+      213: 3215420984355411654
+    second: cheif_smoking-Sheet-Sheet_38
+  - first:
+      213: 693410193530882569
+    second: cheif_smoking-Sheet-Sheet_39
+  - first:
+      213: -6798896464297519915
+    second: cheif_smoking-Sheet-Sheet_40
+  - first:
+      213: 7943459897827482078
+    second: cheif_smoking-Sheet-Sheet_41
+  - first:
+      213: 5342301674074198874
+    second: cheif_smoking-Sheet-Sheet_42
+  - first:
+      213: 2232876762806256337
+    second: cheif_smoking-Sheet-Sheet_43
+  - first:
+      213: 4285161963603808579
+    second: cheif_smoking-Sheet-Sheet_44
+  - first:
+      213: 6982283791876321919
+    second: cheif_smoking-Sheet-Sheet_45
+  - first:
+      213: 916987819038874218
+    second: cheif_smoking-Sheet-Sheet_46
+  - first:
+      213: 8028418441641506967
+    second: cheif_smoking-Sheet-Sheet_47
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -32,7 +176,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -41,12 +185,12 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 18
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -65,10 +209,22 @@ TextureImporter:
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
-    maxTextureSize: 2048
+    maxTextureSize: 16384
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 16384
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -77,7 +233,889 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: cheif_smoking-Sheet-Sheet_0
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 77
+        width: 20
+        height: 58
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 855b5c26f690af620800000000000000
+      internalID: 2808567691622069592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cheif_smoking-Sheet-Sheet_1
+      rect:
+        serializedVersion: 2
+        x: 481
+        y: 77
+        width: 29
+        height: 58
+      alignment: 9
+      pivot: {x: 0.37205768, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90ae6f06b16a82770800000000000000
+      internalID: 8586295326102972937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cheif_smoking-Sheet-Sheet_2
+      rect:
+        serializedVersion: 2
+        x: 761
+        y: 77
+        width: 31
+        height: 58
+      alignment: 9
+      pivot: {x: 0.3551104, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d66ca0c386ddc5020800000000000000
+      internalID: 2331982146824750701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cheif_smoking-Sheet-Sheet_3
+      rect:
+        serializedVersion: 2
+        x: 1041
+        y: 77
+        width: 27
+        height: 59
+      alignment: 9
+      pivot: {x: 0.39874494, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 544b7253b00ccd270800000000000000
+      internalID: 8276701369569096773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cheif_smoking-Sheet-Sheet_5
+      rect:
+        serializedVersion: 2
+        x: 1321
+        y: 77
+        width: 27
+        height: 59
+      alignment: 9
+      pivot: {x: 0.4059742, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 435f8362601c400a0800000000000000
+      internalID: -6916190895579007692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cheif_smoking-Sheet-Sheet_7
+      rect:
+        serializedVersion: 2
+        x: 1601
+        y: 77
+        width: 28
+        height: 59
+      alignment: 9
+      pivot: {x: 0.38143048, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d164e30cbc100050800000000000000
+      internalID: 5764639116878963155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cheif_smoking-Sheet-Sheet_9
+      rect:
+        serializedVersion: 2
+        x: 1881
+        y: 77
+        width: 27
+        height: 59
+      alignment: 9
+      pivot: {x: 0.40596968, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1138562aa8cca65e0800000000000000
+      internalID: -1915493795690609903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cheif_smoking-Sheet-Sheet_11
+      rect:
+        serializedVersion: 2
+        x: 2161
+        y: 77
+        width: 27
+        height: 59
+      alignment: 9
+      pivot: {x: 0.40596968, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb8d5f4e6813d9c80800000000000000
+      internalID: -8314434881619371841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cheif_smoking-Sheet-Sheet_13
+      rect:
+        serializedVersion: 2
+        x: 2441
+        y: 77
+        width: 37
+        height: 60
+      alignment: 9
+      pivot: {x: 0.28889093, y: 0.0032544455}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c274770e7692f4b30800000000000000
+      internalID: 4273680097522173740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cheif_smoking-Sheet-Sheet_14
+      rect:
+        serializedVersion: 2
+        x: 2721
+        y: 77
+        width: 39
+        height: 62
+      alignment: 9
+      pivot: {x: 0.27969125, y: 0.0031494633}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0038a435efdda9230800000000000000
+      internalID: 3646470932698661632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cheif_smoking-Sheet-Sheet_15
+      rect:
+        serializedVersion: 2
+        x: 3001
+        y: 77
+        width: 40
+        height: 62
+      alignment: 9
+      pivot: {x: 0.28031006, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a899888df90d4df0800000000000000
+      internalID: -194488224384968538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cheif_smoking-Sheet-Sheet_16
+      rect:
+        serializedVersion: 2
+        x: 3281
+        y: 77
+        width: 40
+        height: 62
+      alignment: 9
+      pivot: {x: 0.27055055, y: 0.0031494633}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 835076b91ce9bf350800000000000000
+      internalID: 6051605078675490104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cheif_smoking-Sheet-Sheet_17
+      rect:
+        serializedVersion: 2
+        x: 3561
+        y: 77
+        width: 38
+        height: 59
+      alignment: 9
+      pivot: {x: 0.29444003, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1835ad5648165190800000000000000
+      internalID: -7974159399714998243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cheif_smoking-Sheet-Sheet_18
+      rect:
+        serializedVersion: 2
+        x: 3841
+        y: 77
+        width: 38
+        height: 59
+      alignment: 9
+      pivot: {x: 0.27902704, y: 0.0033096054}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 257af17a54dfbcf90800000000000000
+      internalID: -6932168725808306350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cheif_smoking-Sheet-Sheet_19
+      rect:
+        serializedVersion: 2
+        x: 4121
+        y: 77
+        width: 39
+        height: 64
+      alignment: 9
+      pivot: {x: 0.27467698, y: 0.0030510426}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4afb9b2efac37a030800000000000000
+      internalID: 3505837561051987876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cheif_smoking-Sheet-Sheet_21
+      rect:
+        serializedVersion: 2
+        x: 4401
+        y: 77
+        width: 34
+        height: 58
+      alignment: 9
+      pivot: {x: 0.3162052, y: 0.0033666675}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61ec0f43466b1dff0800000000000000
+      internalID: -13028782404219370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cheif_smoking-Sheet-Sheet_22
+      rect:
+        serializedVersion: 2
+        x: 4681
+        y: 77
+        width: 34
+        height: 58
+      alignment: 9
+      pivot: {x: 0.32769418, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 064fb300f99913b10800000000000000
+      internalID: 1959516221065655392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cheif_smoking-Sheet-Sheet_23
+      rect:
+        serializedVersion: 2
+        x: 4961
+        y: 77
+        width: 34
+        height: 58
+      alignment: 9
+      pivot: {x: 0.3219497, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a2f8f85209fffe10800000000000000
+      internalID: 2233777728677016226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cheif_smoking-Sheet-Sheet_24
+      rect:
+        serializedVersion: 2
+        x: 5235
+        y: 1
+        width: 34
+        height: 58
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 264054bce0d398b60800000000000000
+      internalID: 7748791767616783458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cheif_smoking-Sheet-Sheet_25
+      rect:
+        serializedVersion: 2
+        x: 5515
+        y: 1
+        width: 34
+        height: 58
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2e9cd4b088a9bfa0800000000000000
+      internalID: -5784406975637053907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cheif_smoking-Sheet-Sheet_26
+      rect:
+        serializedVersion: 2
+        x: 5795
+        y: 1
+        width: 34
+        height: 58
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 084b071128bb9e850800000000000000
+      internalID: 6406858112223982720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cheif_smoking-Sheet-Sheet_27
+      rect:
+        serializedVersion: 2
+        x: 6070
+        y: 1
+        width: 39
+        height: 60
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7be69af42f6490e0800000000000000
+      internalID: -2264062508046816388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cheif_smoking-Sheet-Sheet_28
+      rect:
+        serializedVersion: 2
+        x: 6082
+        y: 53
+        width: 7
+        height: 12
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6dfe9180b1c8f940800000000000000
+      internalID: 5330223122826067311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cheif_smoking-Sheet-Sheet_29
+      rect:
+        serializedVersion: 2
+        x: 6351
+        y: 1
+        width: 38
+        height: 59
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47348cd9ba2713870800000000000000
+      internalID: 8660829639822295924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cheif_smoking-Sheet-Sheet_30
+      rect:
+        serializedVersion: 2
+        x: 6631
+        y: 1
+        width: 38
+        height: 59
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 939193ed111e42910800000000000000
+      internalID: 1811820416968759609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cheif_smoking-Sheet-Sheet_31
+      rect:
+        serializedVersion: 2
+        x: 6909
+        y: 1
+        width: 40
+        height: 62
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cfcaffa43850af4e0800000000000000
+      internalID: -1947237827427193604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cheif_smoking-Sheet-Sheet_32
+      rect:
+        serializedVersion: 2
+        x: 7189
+        y: 1
+        width: 40
+        height: 62
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b1489ebeaa878080800000000000000
+      internalID: -9185220431872245324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cheif_smoking-Sheet-Sheet_33
+      rect:
+        serializedVersion: 2
+        x: 7470
+        y: 1
+        width: 39
+        height: 62
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a59bb55d971110db0800000000000000
+      internalID: -4827558110596187814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cheif_smoking-Sheet-Sheet_34
+      rect:
+        serializedVersion: 2
+        x: 7752
+        y: 1
+        width: 37
+        height: 60
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2170b419a793f20d0800000000000000
+      internalID: -3445471991328733422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cheif_smoking-Sheet-Sheet_35
+      rect:
+        serializedVersion: 2
+        x: 8042
+        y: 50
+        width: 6
+        height: 10
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1cee87e348cfb6c0800000000000000
+      internalID: -4125358539674817509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cheif_smoking-Sheet-Sheet_36
+      rect:
+        serializedVersion: 2
+        x: 8045
+        y: 1
+        width: 24
+        height: 58
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45d965af5d88ab760800000000000000
+      internalID: 7474436984184151380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cheif_smoking-Sheet-Sheet_37
+      rect:
+        serializedVersion: 2
+        x: 8322
+        y: 50
+        width: 6
+        height: 10
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e99cf2847245873e0800000000000000
+      internalID: -2055800702203082338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cheif_smoking-Sheet-Sheet_38
+      rect:
+        serializedVersion: 2
+        x: 8325
+        y: 1
+        width: 24
+        height: 58
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c657d769587f9c20800000000000000
+      internalID: 3215420984355411654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cheif_smoking-Sheet-Sheet_39
+      rect:
+        serializedVersion: 2
+        x: 8602
+        y: 50
+        width: 6
+        height: 10
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90a0b0da5ec7f9900800000000000000
+      internalID: 693410193530882569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cheif_smoking-Sheet-Sheet_40
+      rect:
+        serializedVersion: 2
+        x: 8605
+        y: 1
+        width: 24
+        height: 58
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d413e410b775a1a0800000000000000
+      internalID: -6798896464297519915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cheif_smoking-Sheet-Sheet_41
+      rect:
+        serializedVersion: 2
+        x: 8882
+        y: 50
+        width: 6
+        height: 10
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed95199d0b6dc3e60800000000000000
+      internalID: 7943459897827482078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cheif_smoking-Sheet-Sheet_42
+      rect:
+        serializedVersion: 2
+        x: 8885
+        y: 1
+        width: 24
+        height: 58
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a53da2e511ba32a40800000000000000
+      internalID: 5342301674074198874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cheif_smoking-Sheet-Sheet_43
+      rect:
+        serializedVersion: 2
+        x: 9162
+        y: 50
+        width: 6
+        height: 10
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d28a42e595ccfe10800000000000000
+      internalID: 2232876762806256337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cheif_smoking-Sheet-Sheet_44
+      rect:
+        serializedVersion: 2
+        x: 9165
+        y: 1
+        width: 24
+        height: 58
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 341de952a14f77b30800000000000000
+      internalID: 4285161963603808579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cheif_smoking-Sheet-Sheet_45
+      rect:
+        serializedVersion: 2
+        x: 9438
+        y: 1
+        width: 31
+        height: 58
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7271cf6d1e06e060800000000000000
+      internalID: 6982283791876321919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cheif_smoking-Sheet-Sheet_46
+      rect:
+        serializedVersion: 2
+        x: 9720
+        y: 1
+        width: 29
+        height: 58
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6a1c21209bc9bc00800000000000000
+      internalID: 916987819038874218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cheif_smoking-Sheet-Sheet_47
+      rect:
+        serializedVersion: 2
+        x: 10009
+        y: 1
+        width: 20
+        height: 58
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 798bc3a490caa6f60800000000000000
+      internalID: 8028418441641506967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []

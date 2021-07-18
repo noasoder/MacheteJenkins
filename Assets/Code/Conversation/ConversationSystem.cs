@@ -125,4 +125,9 @@ public class ConversationSystem : InteractiveObject
             m_textBubbles[index].GetComponent<AudioSource>().Stop();
         }
     }
+
+    public void StartSmoke()
+    {
+        m_animator.SetTrigger("Smoke");
+    }
 }
