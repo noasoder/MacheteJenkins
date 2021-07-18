@@ -1,7 +1,49 @@
 fileFormatVersion: 2
 guid: 18782d06eb68265489e13660a16d7ff8
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: 7399263865612647703
+    second: cheif_fight_animation-Sheet-Sheet_0
+  - first:
+      213: 2429234846076711840
+    second: cheif_fight_animation-Sheet-Sheet_1
+  - first:
+      213: -2902871841898941297
+    second: cheif_fight_animation-Sheet-Sheet_2
+  - first:
+      213: -4508524557028752775
+    second: cheif_fight_animation-Sheet-Sheet_3
+  - first:
+      213: -4186979315243086509
+    second: cheif_fight_animation-Sheet-Sheet_4
+  - first:
+      213: 1431470986117224174
+    second: cheif_fight_animation-Sheet-Sheet_5
+  - first:
+      213: -6552150357306048082
+    second: cheif_fight_animation-Sheet-Sheet_6
+  - first:
+      213: 1876403829125624289
+    second: cheif_fight_animation-Sheet-Sheet_7
+  - first:
+      213: 1860485084774384187
+    second: cheif_fight_animation-Sheet-Sheet_8
+  - first:
+      213: 273491928564934012
+    second: cheif_fight_animation-Sheet-Sheet_9
+  - first:
+      213: 2758079711746583215
+    second: cheif_fight_animation-Sheet-Sheet_10
+  - first:
+      213: -3474237505096028471
+    second: cheif_fight_animation-Sheet-Sheet_11
+  - first:
+      213: 3416080641723185023
+    second: cheif_fight_animation-Sheet-Sheet_12
+  - first:
+      213: 5673897404384593121
+    second: cheif_fight_animation-Sheet-Sheet_13
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -32,7 +74,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -41,12 +83,12 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 20
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -65,10 +107,22 @@ TextureImporter:
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
-    maxTextureSize: 2048
+    maxTextureSize: 16384
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 16384
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -77,7 +131,301 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: cheif_fight_animation-Sheet-Sheet_0
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 87
+        width: 23
+        height: 61
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71db93568477fa660800000000000000
+      internalID: 7399263865612647703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cheif_fight_animation-Sheet-Sheet_1
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 87
+        width: 26
+        height: 61
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a3376cc83066b120800000000000000
+      internalID: 2429234846076711840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cheif_fight_animation-Sheet-Sheet_2
+      rect:
+        serializedVersion: 2
+        x: 683
+        y: 87
+        width: 31
+        height: 61
+      alignment: 9
+      pivot: {x: 0.5900131, y: -0.00000025014407}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f84312b907de6b7d0800000000000000
+      internalID: -2902871841898941297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cheif_fight_animation-Sheet-Sheet_3
+      rect:
+        serializedVersion: 2
+        x: 961
+        y: 87
+        width: 36
+        height: 61
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9720d257dc08e61c0800000000000000
+      internalID: -4508524557028752775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cheif_fight_animation-Sheet-Sheet_4
+      rect:
+        serializedVersion: 2
+        x: 1244
+        y: 87
+        width: 44
+        height: 61
+      alignment: 9
+      pivot: {x: 0.31872004, y: -0.0028426372}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35d07011f7cd4e5c0800000000000000
+      internalID: -4186979315243086509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cheif_fight_animation-Sheet-Sheet_5
+      rect:
+        serializedVersion: 2
+        x: 1526
+        y: 87
+        width: 45
+        height: 61
+      alignment: 9
+      pivot: {x: 0.31889376, y: -0.0028426372}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee69bc1174b9dd310800000000000000
+      internalID: 1431470986117224174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cheif_fight_animation-Sheet-Sheet_6
+      rect:
+        serializedVersion: 2
+        x: 1807
+        y: 87
+        width: 44
+        height: 61
+      alignment: 9
+      pivot: {x: 0.33054143, y: 0.0028425122}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea103ddf6f51215a0800000000000000
+      internalID: -6552150357306048082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cheif_fight_animation-Sheet-Sheet_7
+      rect:
+        serializedVersion: 2
+        x: 2071
+        y: 12
+        width: 46
+        height: 61
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e1373a47535a0a10800000000000000
+      internalID: 1876403829125624289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cheif_fight_animation-Sheet-Sheet_8
+      rect:
+        serializedVersion: 2
+        x: 2352
+        y: 12
+        width: 46
+        height: 61
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b32c3ebc355c1d910800000000000000
+      internalID: 1860485084774384187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cheif_fight_animation-Sheet-Sheet_9
+      rect:
+        serializedVersion: 2
+        x: 2634
+        y: 12
+        width: 46
+        height: 61
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c75ac03c573abc300800000000000000
+      internalID: 273491928564934012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cheif_fight_animation-Sheet-Sheet_10
+      rect:
+        serializedVersion: 2
+        x: 2925
+        y: 12
+        width: 36
+        height: 61
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: faaedd882eaa64620800000000000000
+      internalID: 2758079711746583215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cheif_fight_animation-Sheet-Sheet_11
+      rect:
+        serializedVersion: 2
+        x: 3208
+        y: 12
+        width: 31
+        height: 61
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ce696b756709cfc0800000000000000
+      internalID: -3474237505096028471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cheif_fight_animation-Sheet-Sheet_12
+      rect:
+        serializedVersion: 2
+        x: 3489
+        y: 12
+        width: 27
+        height: 61
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f77bff59e3b586f20800000000000000
+      internalID: 3416080641723185023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cheif_fight_animation-Sheet-Sheet_13
+      rect:
+        serializedVersion: 2
+        x: 3771
+        y: 12
+        width: 23
+        height: 61
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e4ca50b0abbdbe40800000000000000
+      internalID: 5673897404384593121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []

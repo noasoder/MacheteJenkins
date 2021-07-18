@@ -52,6 +52,7 @@ public class Enemy : InteractiveObject
 
     [Header("Hearts")]
     [SerializeField] private Animator m_healthAnim;
+    private Animator m_fightAnim;
 
     void Start()
     {
@@ -64,6 +65,7 @@ public class Enemy : InteractiveObject
 
         UpdateHearts();
 
+        m_fightAnim = GetComponent<Animator>();
 
         m_winPrompt.SetActive(false);
         m_startFightPrompt.SetActive(false);
@@ -243,6 +245,8 @@ public class Enemy : InteractiveObject
 
             m_currentTimeLeft = m_keyCombinations[m_currentkeyCombination].m_timeToComplete;
 
+            m_fightAnim.SetTrigger("Fight");
+
             UpdateKeysText();
             UpdateKeysPressedText();
             UpdateHearts();
@@ -254,6 +258,8 @@ public class Enemy : InteractiveObject
             m_nextKey = GetKeyCode();
 
             m_currentTimeLeft = m_keyCombinations[m_currentkeyCombination].m_timeToComplete;
+
+            m_fightAnim.SetTrigger("Fight");
 
             UpdateKeysText();
             UpdateKeysPressedText();

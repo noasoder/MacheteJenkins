@@ -40447,15 +40447,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8240847163222892199, guid: 6f80ded9873b8c3439d699a3004e3aa9, type: 3}
       propertyPath: m_keyCombinations.Array.data[4].m_timeToComplete
-      value: 2.5
+      value: 2.75
       objectReference: {fileID: 0}
     - target: {fileID: 8240847163222892199, guid: 6f80ded9873b8c3439d699a3004e3aa9, type: 3}
       propertyPath: m_keyCombinations.Array.data[5].m_timeToComplete
-      value: 3
+      value: 3.5
       objectReference: {fileID: 0}
     - target: {fileID: 8240847163222892199, guid: 6f80ded9873b8c3439d699a3004e3aa9, type: 3}
       propertyPath: m_keyCombinations.Array.data[6].m_timeToComplete
-      value: 1
+      value: 1.2
       objectReference: {fileID: 0}
     - target: {fileID: 8240847163222892199, guid: 6f80ded9873b8c3439d699a3004e3aa9, type: 3}
       propertyPath: m_keyCombinations.Array.data[2].m_keysToPress.Array.size
