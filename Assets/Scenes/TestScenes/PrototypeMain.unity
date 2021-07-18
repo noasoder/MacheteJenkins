@@ -155,6 +155,14 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 1238035522477515625, guid: 498afe5dfc70e4f47aae53525df932b6, type: 3}
+      propertyPath: m_SpriteTilingProperty.pivot.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1238035522477515625, guid: 498afe5dfc70e4f47aae53525df932b6, type: 3}
+      propertyPath: m_SpriteTilingProperty.border.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1238035522477515625, guid: 498afe5dfc70e4f47aae53525df932b6, type: 3}
       propertyPath: m_SpriteTilingProperty.oldSize.x
       value: 0.64
       objectReference: {fileID: 0}
@@ -243,6 +251,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1480923769}
     m_Modifications:
+    - target: {fileID: 1238035522477515625, guid: 498afe5dfc70e4f47aae53525df932b6, type: 3}
+      propertyPath: m_SpriteTilingProperty.pivot.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1238035522477515625, guid: 498afe5dfc70e4f47aae53525df932b6, type: 3}
+      propertyPath: m_SpriteTilingProperty.border.z
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1238035522477515625, guid: 498afe5dfc70e4f47aae53525df932b6, type: 3}
       propertyPath: m_SpriteTilingProperty.oldSize.x
       value: 0.64
@@ -22600,6 +22616,14 @@ PrefabInstance:
     m_TransformParent: {fileID: 1480923769}
     m_Modifications:
     - target: {fileID: 1238035522477515625, guid: 498afe5dfc70e4f47aae53525df932b6, type: 3}
+      propertyPath: m_SpriteTilingProperty.pivot.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1238035522477515625, guid: 498afe5dfc70e4f47aae53525df932b6, type: 3}
+      propertyPath: m_SpriteTilingProperty.border.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1238035522477515625, guid: 498afe5dfc70e4f47aae53525df932b6, type: 3}
       propertyPath: m_SpriteTilingProperty.oldSize.x
       value: 1
       objectReference: {fileID: 0}
@@ -22694,10 +22718,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 1857328360439651264, guid: 498afe5dfc70e4f47aae53525df932b6, type: 3}
-      propertyPath: m_clueID
-      value: 7
-      objectReference: {fileID: 0}
     - target: {fileID: 1857328360439651265, guid: 498afe5dfc70e4f47aae53525df932b6, type: 3}
       propertyPath: m_Name
       value: Clue
