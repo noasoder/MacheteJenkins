@@ -16077,7 +16077,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3164014753395422063, guid: 7272888303c97094a830c98101253347, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6036911872681895562, guid: 7272888303c97094a830c98101253347, type: 3}
       propertyPath: m_Size.x
@@ -133645,11 +133645,11 @@ MonoBehaviour:
   m_textBubbles:
   - {fileID: 1455276613}
   m_currentBubble: -1
-  m_disableAfterUse: 0
+  m_disableAfterUse: 1
   m_useTriggerToActivate: 0
   m_clueUI: {fileID: 366685798403277563}
   m_clueID: 3
-  m_deactivateWhenClosed: 1
+  m_deactivateWhenClosed: 0
 --- !u!114 &366685798403277560
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -134170,11 +134170,11 @@ MonoBehaviour:
   m_textBubbles:
   - {fileID: 505999094}
   m_currentBubble: -1
-  m_disableAfterUse: 0
+  m_disableAfterUse: 1
   m_useTriggerToActivate: 0
   m_clueUI: {fileID: 4420756294403395776}
   m_clueID: 6
-  m_deactivateWhenClosed: 1
+  m_deactivateWhenClosed: 0
 --- !u!1 &4420756294314330557
 GameObject:
   m_ObjectHideFlags: 0
@@ -134829,11 +134829,11 @@ MonoBehaviour:
   m_textBubbles:
   - {fileID: 1495327312}
   m_currentBubble: -1
-  m_disableAfterUse: 0
+  m_disableAfterUse: 1
   m_useTriggerToActivate: 0
   m_clueUI: {fileID: 8012413569469638037}
   m_clueID: 8
-  m_deactivateWhenClosed: 1
+  m_deactivateWhenClosed: 0
 --- !u!4 &8012413569550318826
 Transform:
   m_ObjectHideFlags: 0
