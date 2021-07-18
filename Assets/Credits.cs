@@ -5,7 +5,7 @@ using UnityEngine;
 public class Credits : MonoBehaviour
 {
     //[SerializeField] private bool m_rollCredits;
-    [SerializeField] private GameObject m_rollingCredits;
+    //[SerializeField] private GameObject m_rollingCredits;
     [SerializeField] private GameObject m_creditsUI;
     //[SerializeField] private float m_creditsSpeed;
     //private float m_lerp = 0;
@@ -40,5 +40,9 @@ public class Credits : MonoBehaviour
         //m_rollCredits = true;
 
         m_creditsUI.SetActive(true);
+    }
+    public void CloseCredits()
+    {
+        m_creditsUI.SetActive(false);
     }
 }

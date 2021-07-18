@@ -22,7 +22,9 @@ public class Desk : MonoBehaviour
         HotDog,
         BrokenBottles,
         Fight1Clue,
-        Fight2Clue
+        RippedCloth2,
+        CiggButts2,
+        BrokenBottles2
     }
 
     private void Awake()
