@@ -1,7 +1,46 @@
 fileFormatVersion: 2
 guid: a18e1692157db6d47a28a46e04f9eaa7
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: 6071771699173141312
+    second: random_guy-Sheet_0
+  - first:
+      213: -6434222087266356196
+    second: random_guy-Sheet_1
+  - first:
+      213: -2495734429888316453
+    second: random_guy-Sheet_2
+  - first:
+      213: -1718607226059500781
+    second: random_guy-Sheet_3
+  - first:
+      213: 4012446665619196240
+    second: random_guy-Sheet_4
+  - first:
+      213: 3479722692134426097
+    second: random_guy-Sheet_5
+  - first:
+      213: -7005586477590830896
+    second: random_guy-Sheet_6
+  - first:
+      213: 942754374968704018
+    second: random_guy-Sheet_7
+  - first:
+      213: -6681704755105314785
+    second: random_guy-Sheet_8
+  - first:
+      213: 3993653859514833239
+    second: random_guy-Sheet_9
+  - first:
+      213: -4493731209356426140
+    second: random_guy-Sheet_10
+  - first:
+      213: -3232512800685936985
+    second: random_guy-Sheet_11
+  - first:
+      213: -1249053002056423923
+    second: random_guy-Sheet_12
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -32,7 +71,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -41,12 +80,12 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 16
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -68,7 +107,19 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -77,7 +128,280 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: random_guy-Sheet_0
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 1
+        width: 25
+        height: 51
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04b2c76d034434450800000000000000
+      internalID: 6071771699173141312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: random_guy-Sheet_1
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 1
+        width: 25
+        height: 51
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1434820a1d05b6a0800000000000000
+      internalID: -6434222087266356196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: random_guy-Sheet_2
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 1
+        width: 25
+        height: 51
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bdb7bcc42ce5d5dd0800000000000000
+      internalID: -2495734429888316453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: random_guy-Sheet_3
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 1
+        width: 25
+        height: 51
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 313dd4e55d74628e0800000000000000
+      internalID: -1718607226059500781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: random_guy-Sheet_4
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 1
+        width: 25
+        height: 51
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 059ce68cbf21fa730800000000000000
+      internalID: 4012446665619196240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: random_guy-Sheet_5
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 1
+        width: 25
+        height: 51
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f5d9852a557a4030800000000000000
+      internalID: 3479722692134426097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: random_guy-Sheet_6
+      rect:
+        serializedVersion: 2
+        x: 401
+        y: 1
+        width: 25
+        height: 52
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d02bef373827ce90800000000000000
+      internalID: -7005586477590830896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: random_guy-Sheet_7
+      rect:
+        serializedVersion: 2
+        x: 465
+        y: 1
+        width: 25
+        height: 52
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21c747eeb16551d00800000000000000
+      internalID: 942754374968704018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: random_guy-Sheet_8
+      rect:
+        serializedVersion: 2
+        x: 529
+        y: 1
+        width: 25
+        height: 52
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f18c8e92de0d543a0800000000000000
+      internalID: -6681704755105314785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: random_guy-Sheet_9
+      rect:
+        serializedVersion: 2
+        x: 593
+        y: 1
+        width: 25
+        height: 52
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 759df34a60f4c6730800000000000000
+      internalID: 3993653859514833239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: random_guy-Sheet_10
+      rect:
+        serializedVersion: 2
+        x: 657
+        y: 1
+        width: 25
+        height: 52
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 464493e164f03a1c0800000000000000
+      internalID: -4493731209356426140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: random_guy-Sheet_11
+      rect:
+        serializedVersion: 2
+        x: 721
+        y: 1
+        width: 25
+        height: 52
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ae263ffbbec323d0800000000000000
+      internalID: -3232512800685936985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: random_guy-Sheet_12
+      rect:
+        serializedVersion: 2
+        x: 785
+        y: 1
+        width: 25
+        height: 52
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d06aac299e87aaee0800000000000000
+      internalID: -1249053002056423923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []

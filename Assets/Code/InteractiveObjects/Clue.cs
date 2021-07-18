@@ -7,17 +7,21 @@ public class Clue : ConversationSystem
 {
     [SerializeField] private GameObject m_clueUI;
 
-    private State m_state = State.Closed;
+    private State m_state = State.Invisible;
     [SerializeField] private Desk.Clues m_clueID;
     [SerializeField] private bool m_deactivateWhenClosed = false;
 
     private AudioSource m_clueAudio;
+    private SpriteRenderer m_spriteR;
+
+    [SerializeField] private GameObject m_additionalVisual;
+    [SerializeField] private bool m_hideOnRange = false;
 
     enum State
     {
         Closed = 0,
         Open, 
-        Used, //might be removed
+        Invisible,
     }
 
     void Start()
@@ -25,11 +29,23 @@ public class Clue : ConversationSystem
         ConvoStart();
 
         m_clueAudio = GetComponent<AudioSource>();
+        m_spriteR = GetComponent<SpriteRenderer>();
 
         if(m_deactivateWhenClosed && GlobalManager.Instance.HasFoundClue(m_clueID))
         {
             gameObject.SetActive(false);
         }
+
+        if (m_hideOnRange)
+        {
+            if (m_additionalVisual)
+                m_additionalVisual.SetActive(false);
+            m_spriteR.enabled = false;
+
+            m_state = State.Invisible;
+        }
+        else
+            m_state = State.Closed;
     }
 
     void Update()
@@ -46,7 +62,8 @@ public class Clue : ConversationSystem
                 case State.Open:
                     OnStateOpen();
                     break;
-                case State.Used:
+                case State.Invisible:
+                    OnStateInvisible();
                     break;
                 default:
                     Debug.Log("No state on clue!!!");
@@ -64,6 +81,17 @@ public class Clue : ConversationSystem
         if(Input.GetMouseButton(0) && GetIsHighlighted() && GetMode() == Mode.MouseHover)
         {
             OpenClue();
+        }
+    }
+
+    void OnStateInvisible()
+    {
+        if (GetIsHighlighted())
+        {
+            m_spriteR.enabled = true;
+            if (m_additionalVisual)
+                m_additionalVisual.SetActive(true);
+            m_state = State.Closed;
         }
     }
 
